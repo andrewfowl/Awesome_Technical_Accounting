@@ -13,7 +13,6 @@ Technical accounting is the practice of researching, interpreting, and applying 
   - [Deloitte](#deloitte)
   - [KPMG](#kpmg)
   - [PwC](#pwc)
-- [Cryptocurrency & Digital Assets](#cryptocurrency--digital-assets)
 - [Newsletters & Blogs](#newsletters--blogs)
 - [Profession, Practice & Careers](#profession-practice--careers)
 
