@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Awesome Technical Accounting</title>
+<meta name="description" content="A curated list of high-quality resources for technical accounting and financial reporting under US GAAP and IFRS.">
+<meta property="og:title" content="Awesome Technical Accounting">
+<meta property="og:description" content="A curated list of high-quality resources for technical accounting and financial reporting under US GAAP and IFRS.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+<style>
+:root{
+  --bg:#eef2f7; --surface:#ffffff; --surface-2:#f7f9fc;
+  --ink:#0b2545; --muted:#54627b; --border:#dde4ee;
+  --link:#1257a6; --accent:#0e7c66; --accent-soft:#e3f1ec;
+  --shadow:0 1px 2px rgba(11,37,69,.06),0 8px 24px rgba(11,37,69,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0d1117; --surface:#161b22; --surface-2:#10151c;
+    --ink:#e6edf3; --muted:#9aa7b8; --border:#26303d;
+    --link:#6cb0ff; --accent:#56d4b0; --accent-soft:#10241f;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+header.hero{
+  background:linear-gradient(160deg,#0b2545 0%,#13315c 60%,#0e7c66 160%);
+  color:#fff;padding:56px 0 40px;
+}
+header.hero .wrap{max-width:1120px}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.badges a{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.12);
+  color:#fff;border:1px solid rgba(255,255,255,.22);padding:5px 12px;border-radius:999px;font-size:13px;font-weight:600}
+.badges a:hover{background:rgba(255,255,255,.2);text-decoration:none}
+h1{font-size:clamp(28px,4.4vw,44px);margin:0 0 10px;letter-spacing:-.02em;line-height:1.1}
+.tagline{font-size:clamp(16px,2vw,20px);margin:0 0 14px;color:#dce6f5;max-width:760px}
+.intro{margin:0 0 26px;color:#c4d2e6;max-width:820px}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:26px}
+.stat b{display:block;font-size:26px;line-height:1}
+.stat span{font-size:13px;color:#bcccE3;text-transform:uppercase;letter-spacing:.06em}
+.search-box{position:relative;max-width:560px}
+.search-box input{
+  width:100%;padding:14px 16px 14px 44px;border-radius:12px;border:1px solid rgba(255,255,255,.25);
+  background:rgba(255,255,255,.95);color:#0b2545;font-size:16px;box-shadow:var(--shadow)
+}
+.search-box input:focus{outline:3px solid rgba(14,124,102,.5);border-color:transparent}
+.search-box svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);opacity:.55}
+
+.layout{display:grid;grid-template-columns:248px 1fr;gap:36px;padding:34px 0 60px;align-items:start}
+nav.toc{position:sticky;top:18px;max-height:calc(100vh - 36px);overflow:auto;
+  background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+nav.toc .toc-title{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:2px 0 12px}
+nav.toc a{display:block;padding:6px 10px;border-radius:8px;color:var(--ink);font-size:14px}
+nav.toc a:hover{background:var(--surface-2);text-decoration:none}
+nav.toc a.nav-sub{padding-left:22px;color:var(--muted);font-size:13px}
+nav.toc a.active{background:var(--accent-soft);color:var(--accent);font-weight:600}
+
+main{min-width:0}
+.section{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+  padding:24px 26px;margin-bottom:24px;box-shadow:var(--shadow);scroll-margin-top:14px}
+.section-head{display:flex;align-items:center;gap:12px;border-bottom:2px solid var(--border);padding-bottom:12px;margin-bottom:6px}
+.section-head h2{margin:0;font-size:22px;letter-spacing:-.01em}
+.count{margin-left:auto;background:var(--accent-soft);color:var(--accent);font-size:12px;font-weight:700;
+  padding:3px 10px;border-radius:999px}
+.section-intro{color:var(--muted);margin:10px 0 4px}
+.group{margin-top:14px;scroll-margin-top:14px}
+.group h3{font-size:15px;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);margin:18px 0 8px}
+ul.resources{list-style:none;margin:0;padding:0}
+li.resource{padding:9px 12px;border-radius:10px;border-left:3px solid transparent;transition:background .12s,border-color .12s}
+li.resource:hover{background:var(--surface-2);border-left-color:var(--accent)}
+li.resource a{font-weight:600}
+li.resource .desc{color:var(--muted)}
+li.resource .desc::before{content:"— ";color:var(--border)}
+
+#no-results{display:none;text-align:center;color:var(--muted);padding:40px;background:var(--surface);
+  border:1px dashed var(--border);border-radius:16px}
+#no-results[hidden]{display:none}
+#no-results.show{display:block}
+
+footer{border-top:1px solid var(--border);background:var(--surface);padding:30px 0;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+footer a{font-weight:600}
+
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr;gap:18px}
+  nav.toc{position:static;max-height:none}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="badges">
+      <a href="https://awesome.re" target="_blank" rel="noopener noreferrer">★ Awesome</a>
+      <a href="https://github.com/andrewfowl/Awesome_Technical_Accounting" target="_blank" rel="noopener noreferrer">⌥ GitHub</a>
+      <a href="https://github.com/andrewfowl/Awesome_Technical_Accounting/blob/main/license" target="_blank" rel="noopener noreferrer">CC0 License</a>
+    </div>
+    <h1>Awesome Technical Accounting</h1>
+    <p class="tagline">A curated list of high-quality resources for technical accounting and financial reporting under US GAAP and IFRS.</p>
+    <p class="intro">Technical accounting is the practice of researching, interpreting, and applying accounting standards to complex transactions and preparing compliant financial statements. This list collects authoritative standards, the major firms' freely available interpretive guidance, and the best independent newsletters, blogs, and learning resources in the space.</p>
+    <div class="stats">
+      <div class="stat"><b id="result-count">109 resources</b><span>Curated &amp; linked</span></div>
+      <div class="stat"><b>5</b><span>Categories</span></div>
+    </div>
+    <div class="search-box">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="search" type="search" placeholder="Search 109 resources by name or topic…" aria-label="Search resources" autocomplete="off">
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="layout">
+    <nav class="toc" aria-label="Table of contents">
+      <div class="toc-title">Contents</div>
+      <a class="nav-top" href="#standards-authoritative-sources">Standards &amp; Authoritative Sources</a>
+      <a class="nav-top" href="#firm-reference-libraries">Firm Reference Libraries</a>
+      <a class="nav-top" href="#big-four-accounting-reporting-guides">Big Four Accounting &amp; Reporting Guides</a>
+      <a class="nav-sub" href="#big-four-accounting-reporting-guides-deloitte">Deloitte</a>
+      <a class="nav-sub" href="#big-four-accounting-reporting-guides-kpmg">KPMG</a>
+      <a class="nav-sub" href="#big-four-accounting-reporting-guides-pwc">PwC</a>
+      <a class="nav-top" href="#newsletters-blogs">Newsletters &amp; Blogs</a>
+      <a class="nav-top" href="#profession-practice-careers">Profession, Practice &amp; Careers</a>
+    </nav>
+    <main>
+    <section class="section" id="standards-authoritative-sources">
+      <div class="section-head">
+        <h2>Standards &amp; Authoritative Sources</h2>
+        <span class="count">7</span>
+      </div>
+      <div class="group">
+        <ul class="resources">
+        <li class="resource" data-text="fasb accounting standards codification the single source of authoritative us gaap, searchable online (free basic view)."><a href="https://asc.fasb.org/" target="_blank" rel="noopener noreferrer">FASB Accounting Standards Codification</a> <span class="desc">The single source of authoritative US GAAP, searchable online (free Basic View).</span></li>
+        <li class="resource" data-text="financial accounting standards board (fasb) standard setter for us gaap; publishes accounting standards updates, exposure drafts, and project updates."><a href="https://www.fasb.org/" target="_blank" rel="noopener noreferrer">Financial Accounting Standards Board (FASB)</a> <span class="desc">Standard setter for US GAAP; publishes Accounting Standards Updates, exposure drafts, and project updates.</span></li>
+        <li class="resource" data-text="ifrs foundation (iasb) issuer of ifrs accounting standards used in 140+ jurisdictions, with a free register of issued standards."><a href="https://www.ifrs.org/" target="_blank" rel="noopener noreferrer">IFRS Foundation (IASB)</a> <span class="desc">Issuer of IFRS Accounting Standards used in 140+ jurisdictions, with a free register of issued standards.</span></li>
+        <li class="resource" data-text="sec edgar full-text search full-text search across public company filings; the primary corpus for disclosure research and benchmarking."><a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener noreferrer">SEC EDGAR Full-Text Search</a> <span class="desc">Full-text search across public company filings; the primary corpus for disclosure research and benchmarking.</span></li>
+        <li class="resource" data-text="sec financial reporting manual division of corporation finance staff guidance on sec financial statement requirements."><a href="https://www.sec.gov/about/divisions-offices/division-corporation-finance/financial-reporting-manual" target="_blank" rel="noopener noreferrer">SEC Financial Reporting Manual</a> <span class="desc">Division of Corporation Finance staff guidance on SEC financial statement requirements.</span></li>
+        <li class="resource" data-text="sec staff accounting bulletins sec staff interpretations on accounting and disclosure (e.g., materiality and revenue)."><a href="https://www.sec.gov/rules-regulations/staff-guidance/staff-accounting-bulletins" target="_blank" rel="noopener noreferrer">SEC Staff Accounting Bulletins</a> <span class="desc">SEC staff interpretations on accounting and disclosure (e.g., materiality and revenue).</span></li>
+        <li class="resource" data-text="aicpa &amp; cima audit and accounting guides, technical questions and answers, and the center for plain english accounting."><a href="https://www.aicpa-cima.com/" target="_blank" rel="noopener noreferrer">AICPA &amp; CIMA</a> <span class="desc">Audit and accounting guides, Technical Questions and Answers, and the Center for Plain English Accounting.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="firm-reference-libraries">
+      <div class="section-head">
+        <h2>Firm Reference Libraries</h2>
+        <span class="count">8</span>
+      </div>
+      <p class="section-intro">Free hubs where the major firms publish their interpretive accounting guidance.</p>
+      <div class="group">
+        <ul class="resources">
+        <li class="resource" data-text="bdo accounting standards &amp; reporting matters blueprints, bulletins, and newsletters on us gaap and sec developments."><a href="https://www.bdo.com/accounting-and-sec-matters" target="_blank" rel="noopener noreferrer">BDO Accounting Standards &amp; Reporting Matters</a> <span class="desc">Blueprints, bulletins, and newsletters on US GAAP and SEC developments.</span></li>
+        <li class="resource" data-text="deloitte accounting research tool (dart) deloitte's roadmap series and manuals, much of it free with registration."><a href="https://dart.deloitte.com/" target="_blank" rel="noopener noreferrer">Deloitte Accounting Research Tool (DART)</a> <span class="desc">Deloitte's Roadmap series and manuals, much of it free with registration.</span></li>
+        <li class="resource" data-text="deloitte ias plus free global ifrs and us gaap news, standards summaries, and resources."><a href="https://www.iasplus.com/" target="_blank" rel="noopener noreferrer">Deloitte IAS Plus</a> <span class="desc">Free global IFRS and US GAAP news, standards summaries, and resources.</span></li>
+        <li class="resource" data-text="ey accountinglink ey's financial reporting developments publications, technical line guidance, and quarterly briefs."><a href="https://www.ey.com/en_us/technical/accountinglink" target="_blank" rel="noopener noreferrer">EY AccountingLink</a> <span class="desc">EY's Financial Reporting Developments publications, Technical Line guidance, and quarterly briefs.</span></li>
+        <li class="resource" data-text="grant thornton insights accounting and reporting bulletins, new developments summaries, and quarterly updates."><a href="https://www.grantthornton.com/insights" target="_blank" rel="noopener noreferrer">Grant Thornton Insights</a> <span class="desc">Accounting and reporting bulletins, New Developments Summaries, and quarterly updates.</span></li>
+        <li class="resource" data-text="kpmg financial reporting view kpmg's hub of handbooks, hot topics, and cpe-eligible insights on us gaap, ifrs, and sec reporting."><a href="https://kpmg.com/us/en/frv.html" target="_blank" rel="noopener noreferrer">KPMG Financial Reporting View</a> <span class="desc">KPMG's hub of handbooks, hot topics, and CPE-eligible insights on US GAAP, IFRS, and SEC reporting.</span></li>
+        <li class="resource" data-text="pwc viewpoint pwc's accounting and reporting guides, in briefs, and in depths (free registration)."><a href="https://viewpoint.pwc.com/" target="_blank" rel="noopener noreferrer">PwC Viewpoint</a> <span class="desc">PwC's accounting and reporting guides, In briefs, and In depths (free registration).</span></li>
+        <li class="resource" data-text="rsm financial reporting resource center bi-weekly financial reporting insights and topic-organized accounting guidance."><a href="https://rsmus.com/insights/financial-reporting.html" target="_blank" rel="noopener noreferrer">RSM Financial Reporting Resource Center</a> <span class="desc">Bi-weekly Financial Reporting Insights and topic-organized accounting guidance.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="big-four-accounting-reporting-guides">
+      <div class="section-head">
+        <h2>Big Four Accounting &amp; Reporting Guides</h2>
+        <span class="count">86</span>
+      </div>
+      <p class="section-intro">In-depth interpretive guides from the Big Four firms. Links point to the firms' freely available PDFs, or to the guide's web page where no PDF is posted.</p>
+      <div class="group">
+        <h3 id="big-four-accounting-reporting-guides-deloitte">Deloitte</h3>
+        <ul class="resources">
+        <li class="resource" data-text="revenue recognition roadmap to applying asc 606."><a href="https://dart.deloitte.com/USDART/home/codification/revenue/asc606-10/roadmap-revenue-recognition" target="_blank" rel="noopener noreferrer">Revenue recognition</a> <span class="desc">Roadmap to applying ASC 606.</span></li>
+        </ul>
+      </div>
+      <div class="group">
+        <h3 id="big-four-accounting-reporting-guides-kpmg">KPMG</h3>
+        <ul class="resources">
+        <li class="resource" data-text="accounting changes and error corrections handbook on asc 250."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-book-acct-changes-frv.pdf" target="_blank" rel="noopener noreferrer">Accounting changes and error corrections</a> <span class="desc">Handbook on ASC 250.</span></li>
+        <li class="resource" data-text="accounting for bankruptcies handbook on asc 852 reorganizations and liquidations."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-accounting-for-bankruptcies.pdf" target="_blank" rel="noopener noreferrer">Accounting for bankruptcies</a> <span class="desc">Handbook on ASC 852 reorganizations and liquidations.</span></li>
+        <li class="resource" data-text="accounting for income taxes handbook on asc 740."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/accounting-for-income-taxes-frv.pdf" target="_blank" rel="noopener noreferrer">Accounting for income taxes</a> <span class="desc">Handbook on ASC 740.</span></li>
+        <li class="resource" data-text="ai and automation in financial reporting guide to applying ai and automation in the reporting process."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-ai-and-automation-financial-reporting.pdf" target="_blank" rel="noopener noreferrer">AI and automation in financial reporting</a> <span class="desc">Guide to applying AI and automation in the reporting process.</span></li>
+        <li class="resource" data-text="asset acquisitions handbook on asc 805-50."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-asset-acquisitions.pdf" target="_blank" rel="noopener noreferrer">Asset acquisitions</a> <span class="desc">Handbook on ASC 805-50.</span></li>
+        <li class="resource" data-text="bitcoin custodians whitepaper on the role of custodians in bitcoin adoption and ownership."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/019191-1A-the-importance-of-custodians-whitepaper-v2.pdf" target="_blank" rel="noopener noreferrer">Bitcoin custodians</a> <span class="desc">Whitepaper on the role of custodians in bitcoin adoption and ownership.</span></li>
+        <li class="resource" data-text="business combinations handbook on asc 805 and noncontrolling interests."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/accounting-for-business-combinations-and-noncontrolling-interests.pdf" target="_blank" rel="noopener noreferrer">Business combinations</a> <span class="desc">Handbook on ASC 805 and noncontrolling interests.</span></li>
+        <li class="resource" data-text="climate risk in the financial statements handbook on the effects of climate risk on the financial statements."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-climate-risk-financial-statements.pdf" target="_blank" rel="noopener noreferrer">Climate risk in the financial statements</a> <span class="desc">Handbook on the effects of climate risk on the financial statements.</span></li>
+        <li class="resource" data-text="consolidation handbook on asc 810 (vie and voting interest models)."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-consolidation.pdf" target="_blank" rel="noopener noreferrer">Consolidation</a> <span class="desc">Handbook on ASC 810 (VIE and voting interest models).</span></li>
+        <li class="resource" data-text="contingencies, commitments and guarantees handbook on asc 450 and asc 460."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-book-contingencies-frv.pdf" target="_blank" rel="noopener noreferrer">Contingencies, commitments and guarantees</a> <span class="desc">Handbook on ASC 450 and ASC 460.</span></li>
+        <li class="resource" data-text="credit impairment handbook on the asc 326 cecl model."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-credit-impairment.pdf" target="_blank" rel="noopener noreferrer">Credit impairment</a> <span class="desc">Handbook on the ASC 326 CECL model.</span></li>
+        <li class="resource" data-text="crypto asset lending lenders' accounting for loans of crypto intangible assets."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2023/hot-topic-crypto-asset-lending.pdf" target="_blank" rel="noopener noreferrer">Crypto asset lending</a> <span class="desc">Lenders' accounting for loans of crypto intangible assets.</span></li>
+        <li class="resource" data-text="crypto intangible assets accounting and reporting for crypto intangible assets under asc 350-60."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/issues-in-depth-crypto-intangible-asset-non-ic.pdf" target="_blank" rel="noopener noreferrer">Crypto intangible assets</a> <span class="desc">Accounting and reporting for crypto intangible assets under ASC 350-60.</span></li>
+        <li class="resource" data-text="crypto intangible assets (investment companies) investment company accounting for crypto intangible assets."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/issues-in-depth-crypto-intangible-asset-inv-co.pdf" target="_blank" rel="noopener noreferrer">Crypto intangible assets (investment companies)</a> <span class="desc">Investment company accounting for crypto intangible assets.</span></li>
+        <li class="resource" data-text="crypto staking activities accounting for crypto staking rewards."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/hot-topic-accounting-for-crypto-staking-ativities.pdf" target="_blank" rel="noopener noreferrer">Crypto staking activities</a> <span class="desc">Accounting for crypto staking rewards.</span></li>
+        <li class="resource" data-text="debt and equity financing handbook on debt versus equity classification and financing transactions."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/debt-and-equity.pdf" target="_blank" rel="noopener noreferrer">Debt and equity financing</a> <span class="desc">Handbook on debt versus equity classification and financing transactions.</span></li>
+        <li class="resource" data-text="derivatives and hedging handbook on asc 815."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-derivatives-hedging-accounting.pdf" target="_blank" rel="noopener noreferrer">Derivatives and hedging</a> <span class="desc">Handbook on ASC 815.</span></li>
+        <li class="resource" data-text="digital assets: ifrs vs us gaap how digital-asset accounting differs between ifrs and us gaap."><a href="https://kpmg.com/us/en/articles/2024/digital-assets-under-ifrs-accounting-standards.html" target="_blank" rel="noopener noreferrer">Digital assets: IFRS vs US GAAP</a> <span class="desc">How digital-asset accounting differs between IFRS and US GAAP.</span></li>
+        <li class="resource" data-text="discontinued operations and held-for-sale disposal groups handbook on asc 205-20 and asc 360-10."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-discontinued-operations.pdf" target="_blank" rel="noopener noreferrer">Discontinued operations and held-for-sale disposal groups</a> <span class="desc">Handbook on ASC 205-20 and ASC 360-10.</span></li>
+        <li class="resource" data-text="earnings per share handbook on asc 260."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-earnings-per-share.pdf" target="_blank" rel="noopener noreferrer">Earnings per share</a> <span class="desc">Handbook on ASC 260.</span></li>
+        <li class="resource" data-text="economic disruption handbook on accounting through economic disruption and uncertainty."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-handbook-ecomomic-disruption.pdf" target="_blank" rel="noopener noreferrer">Economic disruption</a> <span class="desc">Handbook on accounting through economic disruption and uncertainty.</span></li>
+        <li class="resource" data-text="employee benefits handbook on asc 712 and asc 715."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-book-employee-benefits-new.pdf" target="_blank" rel="noopener noreferrer">Employee benefits</a> <span class="desc">Handbook on ASC 712 and ASC 715.</span></li>
+        <li class="resource" data-text="equity method of accounting handbook on asc 323."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-equity-method-of-accounting-1224.pdf" target="_blank" rel="noopener noreferrer">Equity method of accounting</a> <span class="desc">Handbook on ASC 323.</span></li>
+        <li class="resource" data-text="fair value measurement handbook on asc 820."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/FVM%20Handbook%202025.pdf" target="_blank" rel="noopener noreferrer">Fair value measurement</a> <span class="desc">Handbook on ASC 820.</span></li>
+        <li class="resource" data-text="financial statement presentation handbook on overall financial statement presentation."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-handbook-fsp.pdf" target="_blank" rel="noopener noreferrer">Financial statement presentation</a> <span class="desc">Handbook on overall financial statement presentation.</span></li>
+        <li class="resource" data-text="foreign currency handbook on asc 830."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-foreign-currency.pdf" target="_blank" rel="noopener noreferrer">Foreign currency</a> <span class="desc">Handbook on ASC 830.</span></li>
+        <li class="resource" data-text="ghg emissions reporting handbook on greenhouse gas emissions reporting."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-ghg-emissions-reporting-dec-2024.pdf" target="_blank" rel="noopener noreferrer">GHG emissions reporting</a> <span class="desc">Handbook on greenhouse gas emissions reporting.</span></li>
+        <li class="resource" data-text="going concern handbook on the asc 205-40 going concern assessment."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-going-concern.pdf" target="_blank" rel="noopener noreferrer">Going concern</a> <span class="desc">Handbook on the ASC 205-40 going concern assessment.</span></li>
+        <li class="resource" data-text="ifrs compared to us gaap handbook comparing ifrs accounting standards to us gaap."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/ifrs-us-gaap-2024-final.pdf" target="_blank" rel="noopener noreferrer">IFRS compared to US GAAP</a> <span class="desc">Handbook comparing IFRS Accounting Standards to US GAAP.</span></li>
+        <li class="resource" data-text="ifrs vs us gaap: cares act cares act accounting under ifrs compared to us gaap."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2020/ifrs-us-cares-act.pdf" target="_blank" rel="noopener noreferrer">IFRS vs US GAAP: CARES Act</a> <span class="desc">CARES Act accounting under IFRS compared to US GAAP.</span></li>
+        <li class="resource" data-text="impairment of nonfinancial assets handbook on goodwill, intangible, and long-lived asset impairment."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/impairment-of-nonfinancial-assets.pdf" target="_blank" rel="noopener noreferrer">Impairment of nonfinancial assets</a> <span class="desc">Handbook on goodwill, intangible, and long-lived asset impairment.</span></li>
+        <li class="resource" data-text="internal control over financial reporting handbook on designing and evaluating icfr."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2023/handbook-internal-controls-over-financial-reporting.pdf" target="_blank" rel="noopener noreferrer">Internal control over financial reporting</a> <span class="desc">Handbook on designing and evaluating ICFR.</span></li>
+        <li class="resource" data-text="inventory handbook on asc 330."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/inventory.pdf" target="_blank" rel="noopener noreferrer">Inventory</a> <span class="desc">Handbook on ASC 330.</span></li>
+        <li class="resource" data-text="investment companies handbook on asc 946."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-investment-companies.pdf" target="_blank" rel="noopener noreferrer">Investment companies</a> <span class="desc">Handbook on ASC 946.</span></li>
+        <li class="resource" data-text="investments handbook on debt and equity securities (asc 320 and asc 321)."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-investments.pdf" target="_blank" rel="noopener noreferrer">Investments</a> <span class="desc">Handbook on debt and equity securities (ASC 320 and ASC 321).</span></li>
+        <li class="resource" data-text="leases handbook on asc 842."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/leases-handbook.pdf" target="_blank" rel="noopener noreferrer">Leases</a> <span class="desc">Handbook on ASC 842.</span></li>
+        <li class="resource" data-text="long-duration contracts (insurance) handbook on the ldti insurance standard (asu 2018-12)."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/fn-iid19-02-frv.pdf" target="_blank" rel="noopener noreferrer">Long-duration contracts (insurance)</a> <span class="desc">Handbook on the LDTI insurance standard (ASU 2018-12).</span></li>
+        <li class="resource" data-text="nfts accounting for nonfungible tokens."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/issues-in-depth-accounting-for-nfts.pdf" target="_blank" rel="noopener noreferrer">NFTs</a> <span class="desc">Accounting for nonfungible tokens.</span></li>
+        <li class="resource" data-text="public offerings: non-us issuers filing requirements for non-us issuers in us public offerings."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/non-us-issuers-public-offerings-filing-requirements.pdf" target="_blank" rel="noopener noreferrer">Public offerings: non-US issuers</a> <span class="desc">Filing requirements for non-US issuers in US public offerings.</span></li>
+        <li class="resource" data-text="public offerings: us issuers filing requirements for us issuers in public offerings."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-issuers-public-offerings-filing-requirements.pdf" target="_blank" rel="noopener noreferrer">Public offerings: US issuers</a> <span class="desc">Filing requirements for US issuers in public offerings.</span></li>
+        <li class="resource" data-text="real estate lessor guide asc 842 lessor accounting for real estate."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2023/leases-real-estate-lessors-2.pdf" target="_blank" rel="noopener noreferrer">Real estate lessor guide</a> <span class="desc">ASC 842 lessor accounting for real estate.</span></li>
+        <li class="resource" data-text="real estate revenue asc 606 revenue for real estate."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/revenue-real-estate-2024.pdf" target="_blank" rel="noopener noreferrer">Real estate revenue</a> <span class="desc">ASC 606 revenue for real estate.</span></li>
+        <li class="resource" data-text="reference rate reform handbook on asc 848 (libor transition)."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-reference-rate-reform-3.pdf" target="_blank" rel="noopener noreferrer">Reference rate reform</a> <span class="desc">Handbook on ASC 848 (LIBOR transition).</span></li>
+        <li class="resource" data-text="research and development handbook on asc 730."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/research-and-development.pdf" target="_blank" rel="noopener noreferrer">Research and development</a> <span class="desc">Handbook on ASC 730.</span></li>
+        <li class="resource" data-text="revenue for franchisors asc 606 revenue for franchisors."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2021/us-dpp-ris-franchisors.pdf" target="_blank" rel="noopener noreferrer">Revenue for franchisors</a> <span class="desc">ASC 606 revenue for franchisors.</span></li>
+        <li class="resource" data-text="revenue for software and saas asc 606 revenue for software and saas."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-revenue-software-saas.pdf" target="_blank" rel="noopener noreferrer">Revenue for software and SaaS</a> <span class="desc">ASC 606 revenue for software and SaaS.</span></li>
+        <li class="resource" data-text="revenue recognition handbook on asc 606."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-revenue-recognition-1224.pdf" target="_blank" rel="noopener noreferrer">Revenue recognition</a> <span class="desc">Handbook on ASC 606.</span></li>
+        <li class="resource" data-text="sec reporting for business combinations regulation s-x rule 3-05 and article 11 pro forma requirements."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-sec-business-combinations-2025.pdf" target="_blank" rel="noopener noreferrer">SEC reporting for business combinations</a> <span class="desc">Regulation S-X Rule 3-05 and Article 11 pro forma requirements.</span></li>
+        <li class="resource" data-text="segment reporting handbook on asc 280 (post asu 2023-07)."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-segment-reporting-handbook-post-asu-frv.pdf" target="_blank" rel="noopener noreferrer">Segment reporting</a> <span class="desc">Handbook on ASC 280 (post ASU 2023-07).</span></li>
+        <li class="resource" data-text="service concession arrangements handbook on asc 853."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-service-concessions.pdf" target="_blank" rel="noopener noreferrer">Service concession arrangements</a> <span class="desc">Handbook on ASC 853.</span></li>
+        <li class="resource" data-text="share-based payment handbook on asc 718."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-share-based-payments.pdf" target="_blank" rel="noopener noreferrer">Share-based payment</a> <span class="desc">Handbook on ASC 718.</span></li>
+        <li class="resource" data-text="software and website costs handbook on asc 350-40 and asc 985-20."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/handbook-software-website-costs-2.pdf" target="_blank" rel="noopener noreferrer">Software and website costs</a> <span class="desc">Handbook on ASC 350-40 and ASC 985-20.</span></li>
+        <li class="resource" data-text="stablecoins accounting and reporting considerations for stablecoins."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2025/stablecoins-kpmg.pdf" target="_blank" rel="noopener noreferrer">Stablecoins</a> <span class="desc">Accounting and reporting considerations for stablecoins.</span></li>
+        <li class="resource" data-text="statement of cash flows handbook on asc 230."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-statement-cash-flows.pdf" target="_blank" rel="noopener noreferrer">Statement of cash flows</a> <span class="desc">Handbook on ASC 230.</span></li>
+        <li class="resource" data-text="tax credits handbook on accounting for tax credits and credit investments."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/tax-credits.pdf" target="_blank" rel="noopener noreferrer">Tax credits</a> <span class="desc">Handbook on accounting for tax credits and credit investments.</span></li>
+        <li class="resource" data-text="transfers and servicing of financial assets handbook on asc 860."><a href="https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/transfers-servicing-financial-assets.pdf" target="_blank" rel="noopener noreferrer">Transfers and servicing of financial assets</a> <span class="desc">Handbook on ASC 860.</span></li>
+        </ul>
+      </div>
+      <div class="group">
+        <h3 id="big-four-accounting-reporting-guides-pwc">PwC</h3>
+        <ul class="resources">
+        <li class="resource" data-text="bankruptcies and liquidations guide on asc 852."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/bankruptcies_and_liq/assets/blguide0625.pdf" target="_blank" rel="noopener noreferrer">Bankruptcies and liquidations</a> <span class="desc">Guide on ASC 852.</span></li>
+        <li class="resource" data-text="business combinations and noncontrolling interests guide on asc 805 and asc 810."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/business_combination/assets/pwcbuscombguide1125.pdf" target="_blank" rel="noopener noreferrer">Business combinations and noncontrolling interests</a> <span class="desc">Guide on ASC 805 and ASC 810.</span></li>
+        <li class="resource" data-text="carve-out financial statements guide to preparing carve-out financial statements."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/carve-out-financial-statements/assets---co/carveoutguide0724.pdf" target="_blank" rel="noopener noreferrer">Carve-out financial statements</a> <span class="desc">Guide to preparing carve-out financial statements.</span></li>
+        <li class="resource" data-text="consolidation guide on asc 810 (vies and voting interests)."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/consolidation_and_eq/assets/pwcconsolidations0925.pdf" target="_blank" rel="noopener noreferrer">Consolidation</a> <span class="desc">Guide on ASC 810 (VIEs and voting interests).</span></li>
+        <li class="resource" data-text="crypto assets guide to accounting for crypto assets."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/crypto-assets-guide/assets/pwccryptoassetsguide0825.pdf" target="_blank" rel="noopener noreferrer">Crypto assets</a> <span class="desc">Guide to accounting for crypto assets.</span></li>
+        <li class="resource" data-text="derivatives and hedging guide on asc 815."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/derivatives_and_hedg/assets/dhguide0824.pdf" target="_blank" rel="noopener noreferrer">Derivatives and hedging</a> <span class="desc">Guide on ASC 815.</span></li>
+        <li class="resource" data-text="equity method investments and joint ventures guide on asc 323."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/equity_method_of_accounting/assets/pwcequitymethod0325.pdf" target="_blank" rel="noopener noreferrer">Equity method investments and joint ventures</a> <span class="desc">Guide on ASC 323.</span></li>
+        <li class="resource" data-text="fair value measurements guide on asc 820."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/fair_value_measureme/assets/pwcfairvalueguide0922.pdf" target="_blank" rel="noopener noreferrer">Fair value measurements</a> <span class="desc">Guide on ASC 820.</span></li>
+        <li class="resource" data-text="financial statement presentation guide on overall financial statement presentation."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/financial_statement_/assets/pwcfinlstmtpresentn1025.pdf" target="_blank" rel="noopener noreferrer">Financial statement presentation</a> <span class="desc">Guide on overall financial statement presentation.</span></li>
+        <li class="resource" data-text="financing transactions guide on debt, equity, and financing arrangements."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/financing_transactio/assets/pwcfinancingguide0325.pdf" target="_blank" rel="noopener noreferrer">Financing transactions</a> <span class="desc">Guide on debt, equity, and financing arrangements.</span></li>
+        <li class="resource" data-text="foreign currency guide on asc 830."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/foreign_currency/assets/pwcforeigncurrency0522.pdf" target="_blank" rel="noopener noreferrer">Foreign currency</a> <span class="desc">Guide on ASC 830.</span></li>
+        <li class="resource" data-text="health care entities industry guide for health care entities."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/health-care/asset/pwchealthcare0323.pdf" target="_blank" rel="noopener noreferrer">Health care entities</a> <span class="desc">Industry guide for health care entities.</span></li>
+        <li class="resource" data-text="ifrs and us gaap: similarities and differences comparison of ifrs and us gaap."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/ifrs_and_us_gaap_sim/assets/pwcifrsusgaap0625.pdf" target="_blank" rel="noopener noreferrer">IFRS and US GAAP: similarities and differences</a> <span class="desc">Comparison of IFRS and US GAAP.</span></li>
+        <li class="resource" data-text="income taxes guide on asc 740."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/income_taxes/assets/pwcincometaxguide0925.pdf" target="_blank" rel="noopener noreferrer">Income taxes</a> <span class="desc">Guide on ASC 740.</span></li>
+        <li class="resource" data-text="insurance contracts guide on asc 944 for insurance entities (post asu 2018-12)."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/insurance-contracts/assets/pwcinsurguide0524.pdf" target="_blank" rel="noopener noreferrer">Insurance contracts</a> <span class="desc">Guide on ASC 944 for insurance entities (post ASU 2018-12).</span></li>
+        <li class="resource" data-text="inventory guide on asc 330."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/inventory/assets/ivguide0425.pdf" target="_blank" rel="noopener noreferrer">Inventory</a> <span class="desc">Guide on ASC 330.</span></li>
+        <li class="resource" data-text="investment companies industry guidance for investment companies (asc 946)."><a href="https://viewpoint.pwc.com/dt/us/en/pwc/accounting_and_repor/accounting_and_repor__6_US/9652_investment_comp_US/1_accounting_practic_US.html" target="_blank" rel="noopener noreferrer">Investment companies</a> <span class="desc">Industry guidance for investment companies (ASC 946).</span></li>
+        <li class="resource" data-text="leases guide on asc 842."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/leases/assets/pwcleasesguide1224.pdf" target="_blank" rel="noopener noreferrer">Leases</a> <span class="desc">Guide on ASC 842.</span></li>
+        <li class="resource" data-text="loans and investments guide on loans and debt and equity investments."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/loans_and_investment/assets/pwcloansinvestments0325.pdf" target="_blank" rel="noopener noreferrer">Loans and investments</a> <span class="desc">Guide on loans and debt and equity investments.</span></li>
+        <li class="resource" data-text="not-for-profit entities guide on asc 958."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/not-for-profit-entities/assets/pwcnotforprofitguide0525.pdf" target="_blank" rel="noopener noreferrer">Not-for-profit entities</a> <span class="desc">Guide on ASC 958.</span></li>
+        <li class="resource" data-text="pensions and other employee benefits guide on asc 715."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/pensions-and-employee-benefitspeb/assets/pwcpensionsguide0624.pdf" target="_blank" rel="noopener noreferrer">Pensions and other employee benefits</a> <span class="desc">Guide on ASC 715.</span></li>
+        <li class="resource" data-text="pharmaceutical and life sciences industry gaap issues and solutions."><a href="https://www.pwc.com/us/en/industries/health-industries/library/assets/pwc-2025-us-gaap-issues-and-solutions-for-pharmaceutical-and-life-sciences.pdf" target="_blank" rel="noopener noreferrer">Pharmaceutical and life sciences</a> <span class="desc">Industry GAAP issues and solutions.</span></li>
+        <li class="resource" data-text="property, plant, equipment and other assets guide on asc 360."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/property_plant_equip/assets/ppeguide1224.pdf" target="_blank" rel="noopener noreferrer">Property, plant, equipment and other assets</a> <span class="desc">Guide on ASC 360.</span></li>
+        <li class="resource" data-text="reference rate reform guide on asc 848."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/reference-rate-reform/Asset/rrrguide0924.pdf" target="_blank" rel="noopener noreferrer">Reference rate reform</a> <span class="desc">Guide on ASC 848.</span></li>
+        <li class="resource" data-text="revenue from contracts with customers guide on asc 606."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/revenue_from_contrac/assets/rrguide092025.pdf" target="_blank" rel="noopener noreferrer">Revenue from contracts with customers</a> <span class="desc">Guide on ASC 606.</span></li>
+        <li class="resource" data-text="software costs guide on asc 350-40 and asc 985-20."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/software/assets/pwcsw042025.pdf" target="_blank" rel="noopener noreferrer">Software costs</a> <span class="desc">Guide on ASC 350-40 and ASC 985-20.</span></li>
+        <li class="resource" data-text="stock-based compensation guide on asc 718."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/stockbased_compensat/assets/stockcompguide0925.pdf" target="_blank" rel="noopener noreferrer">Stock-based compensation</a> <span class="desc">Guide on ASC 718.</span></li>
+        <li class="resource" data-text="transfers and servicing of financial assets guide on asc 860."><a href="https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/transfers_and_servic/assets/ts061924.pdf" target="_blank" rel="noopener noreferrer">Transfers and servicing of financial assets</a> <span class="desc">Guide on ASC 860.</span></li>
+        <li class="resource" data-text="utilities and power companies industry guide for utilities and power companies."><a href="https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/utilities_and_power_/utilities_and_power__US/upfm.html" target="_blank" rel="noopener noreferrer">Utilities and power companies</a> <span class="desc">Industry guide for utilities and power companies.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="newsletters-blogs">
+      <div class="section-head">
+        <h2>Newsletters &amp; Blogs</h2>
+        <span class="count">6</span>
+      </div>
+      <div class="group">
+        <ul class="resources">
+        <li class="resource" data-text="accounting accidentally ken boyd, author of several &quot;for dummies&quot; accounting titles, explains core accounting concepts and the cpa exam for students and professionals."><a href="https://www.accountingaccidentally.com/" target="_blank" rel="noopener noreferrer">Accounting Accidentally</a> <span class="desc">Ken Boyd, author of several &quot;For Dummies&quot; accounting titles, explains core accounting concepts and the CPA exam for students and professionals.</span></li>
+        <li class="resource" data-text="deep quarry olga usvyatsky uses data to uncover trends in financial disclosure and reporting, from sec comment letters to restatement red flags."><a href="https://deepquarry.substack.com/" target="_blank" rel="noopener noreferrer">Deep Quarry</a> <span class="desc">Olga Usvyatsky uses data to uncover trends in financial disclosure and reporting, from SEC comment letters to restatement red flags.</span></li>
+        <li class="resource" data-text="the dig investigative journalist francine mckenna digs into accounting, auditing, and governance issues at public and pre-ipo companies."><a href="https://thedig.substack.com/" target="_blank" rel="noopener noreferrer">The Dig</a> <span class="desc">Investigative journalist Francine McKenna digs into accounting, auditing, and governance issues at public and pre-IPO companies.</span></li>
+        <li class="resource" data-text="finacco insights technical accounting articles on revenue, leases, financial instruments, crypto, and valuation from a specialist advisory firm."><a href="https://finacco.org/insights/" target="_blank" rel="noopener noreferrer">FinAcco Insights</a> <span class="desc">Technical accounting articles on revenue, leases, financial instruments, crypto, and valuation from a specialist advisory firm.</span></li>
+        <li class="resource" data-text="gaapsavvy angela liu's field-notes newsletter on what is actually happening on the ground in corporate accounting, including revenue recognition and the accounting/ai intersection."><a href="https://news.gaapsavvy.com/" target="_blank" rel="noopener noreferrer">GAAPSavvy</a> <span class="desc">Angela Liu's field-notes newsletter on what is actually happening on the ground in corporate accounting, including revenue recognition and the accounting/AI intersection.</span></li>
+        <li class="resource" data-text="techaccountingpro practical us gaap research and solutions with a focus on digital-asset and crypto accounting, presentation, and audit readiness."><a href="https://blog.techaccountingpro.com/" target="_blank" rel="noopener noreferrer">TechAccountingPro</a> <span class="desc">Practical US GAAP research and solutions with a focus on digital-asset and crypto accounting, presentation, and audit readiness.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="profession-practice-careers">
+      <div class="section-head">
+        <h2>Profession, Practice &amp; Careers</h2>
+        <span class="count">2</span>
+      </div>
+      <div class="group">
+        <ul class="resources">
+        <li class="resource" data-text="ambition, aligned devon coombs (cpa, formerly deloitte and google cloud) on ai strategy, finance leadership, and purpose-driven careers for finance professionals."><a href="https://www.linkedin.com/newsletters/ambition-aligned-7311015426463776788" target="_blank" rel="noopener noreferrer">Ambition, Aligned</a> <span class="desc">Devon Coombs (CPA, formerly Deloitte and Google Cloud) on AI strategy, finance leadership, and purpose-driven careers for finance professionals.</span></li>
+        <li class="resource" data-text="jason staats cpa jason staats on running modern accounting firms, covering practice management, accounting technology, and ai tooling."><a href="https://www.jasononfirms.com/" target="_blank" rel="noopener noreferrer">Jason Staats</a> <span class="desc">CPA Jason Staats on running modern accounting firms, covering practice management, accounting technology, and AI tooling.</span></li>
+        </ul>
+      </div>
+    </section>
+      <div id="no-results">No resources match your search.</div>
+    </main>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span>Released under <a href="https://github.com/andrewfowl/Awesome_Technical_Accounting/blob/main/license" target="_blank" rel="noopener noreferrer">CC0 1.0</a> · Contributions welcome via <a href="https://github.com/andrewfowl/Awesome_Technical_Accounting/blob/main/contributing.md" target="_blank" rel="noopener noreferrer">the guidelines</a>.</span>
+    <span>Generated from <a href="https://github.com/andrewfowl/Awesome_Technical_Accounting/blob/main/readme.md" target="_blank" rel="noopener noreferrer">readme.md</a></span>
+  </div>
+</footer>
+<script>
+(function(){
+  var search=document.getElementById('search');
+  var counter=document.getElementById('result-count');
+  var empty=document.getElementById('no-results');
+  var items=[].slice.call(document.querySelectorAll('.resource'));
+  var groups=[].slice.call(document.querySelectorAll('.group'));
+  var secs=[].slice.call(document.querySelectorAll('.section'));
+  var total=items.length;
+
+  function visible(el){return el.querySelectorAll('.resource:not([hidden])').length>0;}
+  function apply(){
+    var q=search.value.trim().toLowerCase();
+    var shown=0;
+    for(var i=0;i<items.length;i++){
+      var ok=q===''||items[i].getAttribute('data-text').indexOf(q)!==-1;
+      items[i].hidden=!ok; if(ok)shown++;
+    }
+    for(var g=0;g<groups.length;g++){groups[g].hidden=!visible(groups[g]);}
+    for(var s=0;s<secs.length;s++){secs[s].hidden=!visible(secs[s]);}
+    empty.className=shown===0?'show':'';
+    counter.textContent=q===''?(total+' resources'):(shown+' of '+total);
+  }
+  if(search){search.addEventListener('input',apply);}
+
+  // Highlight active section in the table of contents.
+  var navLinks={};
+  [].slice.call(document.querySelectorAll('nav.toc a')).forEach(function(a){
+    navLinks[a.getAttribute('href').slice(1)]=a;
+  });
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        var link=navLinks[e.target.id];
+        if(!link)return;
+        if(e.isIntersecting){
+          for(var k in navLinks){navLinks[k].classList.remove('active');}
+          link.classList.add('active');
+        }
+      });
+    },{rootMargin:'-10% 0px -80% 0px'});
+    secs.forEach(function(s){obs.observe(s);});
+  }
+})();
+</script>
+</body>
+</html>
