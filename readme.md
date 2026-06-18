@@ -15,6 +15,7 @@ Technical accounting is the practice of researching, interpreting, and applying 
   - [PwC](#pwc)
 - [Newsletters & Blogs](#newsletters--blogs)
 - [Profession, Practice & Careers](#profession-practice--careers)
+- [Data](#data)
 
 
 ## Standards & Authoritative Sources
@@ -154,6 +155,9 @@ In-depth interpretive guides from the Big Four firms. Links point to the firms' 
 
 - [Ambition, Aligned](https://www.linkedin.com/newsletters/ambition-aligned-7311015426463776788) - Devon Coombs (CPA, formerly Deloitte and Google Cloud) on AI strategy, finance leadership, and purpose-driven careers for finance professionals.
 - [Jason Staats](https://www.jasononfirms.com/) - CPA Jason Staats on running modern accounting firms, covering practice management, accounting technology, and AI tooling.
+
+## Data
+- [Estimated Normal Useful Life Study by ASA – Machinery & Technical Specialties Committee](https://www.appraisers.org/docs/default-source/16---member-resources/mtsc-normal-useful-life-study-update-2024.pdf?sfvrsn=2c943b33_1) - Estimated Normal Useful Lives for Machinery and Equipment
 
 
 ## Contributing
