@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awesome Technical Accounting</title>
+    <link>https://andrewfowl.github.io/Awesome_Technical_Accounting/</link>
+    <atom:link href="https://andrewfowl.github.io/Awesome_Technical_Accounting/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>A curated list of high-quality resources for technical accounting and financial reporting under US GAAP and IFRS.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jun 2026 02:30:22 GMT</lastBuildDate>
+    <generator>scripts/build-site.mjs</generator>
+    <item>
+      <title>FASB Accounting Standards Codification</title>
+      <link>https://asc.fasb.org/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#standards-authoritative-sources-fasb-accounting-standards-codification</guid>
+      <category>Standards &amp; Authoritative Sources</category>
+      <description>The single source of authoritative US GAAP, searchable online (free Basic View).</description>
+    </item>
+    <item>
+      <title>Financial Accounting Standards Board (FASB)</title>
+      <link>https://www.fasb.org/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#standards-authoritative-sources-financial-accounting-standards-board-fasb</guid>
+      <category>Standards &amp; Authoritative Sources</category>
+      <description>Standard setter for US GAAP; publishes Accounting Standards Updates, exposure drafts, and project updates.</description>
+    </item>
+    <item>
+      <title>IFRS Foundation (IASB)</title>
+      <link>https://www.ifrs.org/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#standards-authoritative-sources-ifrs-foundation-iasb</guid>
+      <category>Standards &amp; Authoritative Sources</category>
+      <description>Issuer of IFRS Accounting Standards used in 140+ jurisdictions, with a free register of issued standards.</description>
+    </item>
+    <item>
+      <title>SEC EDGAR Full-Text Search</title>
+      <link>https://www.sec.gov/edgar/search/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#standards-authoritative-sources-sec-edgar-full-text-search</guid>
+      <category>Standards &amp; Authoritative Sources</category>
+      <description>Full-text search across public company filings; the primary corpus for disclosure research and benchmarking.</description>
+    </item>
+    <item>
+      <title>SEC Financial Reporting Manual</title>
+      <link>https://www.sec.gov/about/divisions-offices/division-corporation-finance/financial-reporting-manual</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#standards-authoritative-sources-sec-financial-reporting-manual</guid>
+      <category>Standards &amp; Authoritative Sources</category>
+      <description>Division of Corporation Finance staff guidance on SEC financial statement requirements.</description>
+    </item>
+    <item>
+      <title>SEC Staff Accounting Bulletins</title>
+      <link>https://www.sec.gov/rules-regulations/staff-guidance/staff-accounting-bulletins</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#standards-authoritative-sources-sec-staff-accounting-bulletins</guid>
+      <category>Standards &amp; Authoritative Sources</category>
+      <description>SEC staff interpretations on accounting and disclosure (e.g., materiality and revenue).</description>
+    </item>
+    <item>
+      <title>AICPA &amp; CIMA</title>
+      <link>https://www.aicpa-cima.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#standards-authoritative-sources-aicpa-cima</guid>
+      <category>Standards &amp; Authoritative Sources</category>
+      <description>Audit and accounting guides, Technical Questions and Answers, and the Center for Plain English Accounting.</description>
+    </item>
+    <item>
+      <title>BDO Accounting Standards &amp; Reporting Matters</title>
+      <link>https://www.bdo.com/accounting-and-sec-matters</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#firm-reference-libraries-bdo-accounting-standards-reporting-matters</guid>
+      <category>Firm Reference Libraries</category>
+      <description>Blueprints, bulletins, and newsletters on US GAAP and SEC developments.</description>
+    </item>
+    <item>
+      <title>Deloitte Accounting Research Tool (DART)</title>
+      <link>https://dart.deloitte.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#firm-reference-libraries-deloitte-accounting-research-tool-dart</guid>
+      <category>Firm Reference Libraries</category>
+      <description>Deloitte&apos;s Roadmap series and manuals, much of it free with registration.</description>
+    </item>
+    <item>
+      <title>Deloitte IAS Plus</title>
+      <link>https://www.iasplus.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#firm-reference-libraries-deloitte-ias-plus</guid>
+      <category>Firm Reference Libraries</category>
+      <description>Free global IFRS and US GAAP news, standards summaries, and resources.</description>
+    </item>
+    <item>
+      <title>EY AccountingLink</title>
+      <link>https://www.ey.com/en_us/technical/accountinglink</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#firm-reference-libraries-ey-accountinglink</guid>
+      <category>Firm Reference Libraries</category>
+      <description>EY&apos;s Financial Reporting Developments publications, Technical Line guidance, and quarterly briefs.</description>
+    </item>
+    <item>
+      <title>Grant Thornton Insights</title>
+      <link>https://www.grantthornton.com/insights</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#firm-reference-libraries-grant-thornton-insights</guid>
+      <category>Firm Reference Libraries</category>
+      <description>Accounting and reporting bulletins, New Developments Summaries, and quarterly updates.</description>
+    </item>
+    <item>
+      <title>KPMG Financial Reporting View</title>
+      <link>https://kpmg.com/us/en/frv.html</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#firm-reference-libraries-kpmg-financial-reporting-view</guid>
+      <category>Firm Reference Libraries</category>
+      <description>KPMG&apos;s hub of handbooks, hot topics, and CPE-eligible insights on US GAAP, IFRS, and SEC reporting.</description>
+    </item>
+    <item>
+      <title>PwC Viewpoint</title>
+      <link>https://viewpoint.pwc.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#firm-reference-libraries-pwc-viewpoint</guid>
+      <category>Firm Reference Libraries</category>
+      <description>PwC&apos;s accounting and reporting guides, In briefs, and In depths (free registration).</description>
+    </item>
+    <item>
+      <title>RSM Financial Reporting Resource Center</title>
+      <link>https://rsmus.com/insights/financial-reporting.html</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#firm-reference-libraries-rsm-financial-reporting-resource-center</guid>
+      <category>Firm Reference Libraries</category>
+      <description>Bi-weekly Financial Reporting Insights and topic-organized accounting guidance.</description>
+    </item>
+    <item>
+      <title>Revenue recognition</title>
+      <link>https://dart.deloitte.com/USDART/home/codification/revenue/asc606-10/roadmap-revenue-recognition</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-deloitte-revenue-recognition</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / Deloitte</category>
+      <description>Roadmap to applying ASC 606.</description>
+    </item>
+    <item>
+      <title>Accounting changes and error corrections</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb2752-07-25-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-accounting-changes-and-error-corrections</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 250.</description>
+    </item>
+    <item>
+      <title>Asset retirement obligations</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1026-06-27-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-asset-retirement-obligations</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 410.</description>
+    </item>
+    <item>
+      <title>Business combinations</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1616-08-21-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-business-combinations</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 805.</description>
+    </item>
+    <item>
+      <title>Certain investments in debt and equity securities</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd03623-181us-09-18-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-certain-investments-in-debt-and-equity-securities</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 320 and ASC 321.</description>
+    </item>
+    <item>
+      <title>Consolidation</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd02856-161us-08-22-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-consolidation</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 810.</description>
+    </item>
+    <item>
+      <title>Credit impairment under ASC 326</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd04488-181us-09-25-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-credit-impairment-under-asc-326</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on the CECL model.</description>
+    </item>
+    <item>
+      <title>Derivatives and hedging</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd05712-191us-06-05-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-derivatives-and-hedging</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 815.</description>
+    </item>
+    <item>
+      <title>Disaggregation of income statement expenses</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd27503-251us-05-05-2026.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-disaggregation-of-income-statement-expenses</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASU 2024-03 (DISE).</description>
+    </item>
+    <item>
+      <title>Earnings per share</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1971-09-17-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-earnings-per-share</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 260.</description>
+    </item>
+    <item>
+      <title>Equity method investments and joint ventures</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd02230-161us-06-27-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-equity-method-investments-and-joint-ventures</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 323.</description>
+    </item>
+    <item>
+      <title>Fair value measurement</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1462-09-30-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-fair-value-measurement</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 820.</description>
+    </item>
+    <item>
+      <title>Foreign currency matters</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/frdbb2103-09-18-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-foreign-currency-matters</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 830.</description>
+    </item>
+    <item>
+      <title>Gains and losses from the derecognition of nonfinancial assets</title>
+      <link>https://www.ey.com/en_us/technical/accountinglink/financial-reporting-developments-gains-and-losses-from-the-der</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-gains-and-losses-from-the-derecognition-of-nonfinancial-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 610-20.</description>
+    </item>
+    <item>
+      <title>Impairment or disposal of long-lived assets</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1887-08-27-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-impairment-or-disposal-of-long-lived-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 360.</description>
+    </item>
+    <item>
+      <title>Income taxes</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1150-09-11-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-income-taxes</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 740.</description>
+    </item>
+    <item>
+      <title>Intangibles, goodwill and other</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1499-08-25-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-intangibles-goodwill-and-other</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 350.</description>
+    </item>
+    <item>
+      <title>Issuer&apos;s accounting for debt and equity financings</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd13740-211us-09-30-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-issuer-s-accounting-for-debt-and-equity-financings</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on debt and equity financings.</description>
+    </item>
+    <item>
+      <title>Lease accounting</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd00195-171us-08-27-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-lease-accounting</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 842.</description>
+    </item>
+    <item>
+      <title>Pro forma financial information</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-sec29171-251us-12-04-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-pro-forma-financial-information</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Guide to applying Article 11 of Regulation S-X.</description>
+    </item>
+    <item>
+      <title>Real estate project costs</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1883-05-13-24.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-real-estate-project-costs</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on real estate project costs.</description>
+    </item>
+    <item>
+      <title>Revenue from contracts with customers</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb3043-08-07-2025-v2.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-revenue-from-contracts-with-customers</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 606.</description>
+    </item>
+    <item>
+      <title>Share-based payment</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd06440-191us-09-11-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-share-based-payment</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 718.</description>
+    </item>
+    <item>
+      <title>Statement of cash flows</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd42856-07-30-2024-v2.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-statement-of-cash-flows</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 230.</description>
+    </item>
+    <item>
+      <title>Transfers and servicing of financial assets</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1921-09-24-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-transfers-and-servicing-of-financial-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Financial Reporting Developments on ASC 860.</description>
+    </item>
+    <item>
+      <title>US GAAP versus IFRS: the basics</title>
+      <link>https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-ifrs29540-261us-01-21-2026.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-ey-us-gaap-versus-ifrs-the-basics</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / EY</category>
+      <description>Comparison of US GAAP and IFRS Accounting Standards.</description>
+    </item>
+    <item>
+      <title>Accounting changes and error corrections</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-book-acct-changes-frv.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-accounting-changes-and-error-corrections</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 250.</description>
+    </item>
+    <item>
+      <title>Accounting for bankruptcies</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-accounting-for-bankruptcies.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-accounting-for-bankruptcies</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 852 reorganizations and liquidations.</description>
+    </item>
+    <item>
+      <title>Accounting for income taxes</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/accounting-for-income-taxes-frv.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-accounting-for-income-taxes</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 740.</description>
+    </item>
+    <item>
+      <title>AI and automation in financial reporting</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-ai-and-automation-financial-reporting.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-ai-and-automation-in-financial-reporting</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Guide to applying AI and automation in the reporting process.</description>
+    </item>
+    <item>
+      <title>Asset acquisitions</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-asset-acquisitions.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-asset-acquisitions</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 805-50.</description>
+    </item>
+    <item>
+      <title>Bitcoin custodians</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/019191-1A-the-importance-of-custodians-whitepaper-v2.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-bitcoin-custodians</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Whitepaper on the role of custodians in bitcoin adoption and ownership.</description>
+    </item>
+    <item>
+      <title>Business combinations</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/accounting-for-business-combinations-and-noncontrolling-interests.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-business-combinations</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 805 and noncontrolling interests.</description>
+    </item>
+    <item>
+      <title>Climate risk in the financial statements</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-climate-risk-financial-statements.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-climate-risk-in-the-financial-statements</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on the effects of climate risk on the financial statements.</description>
+    </item>
+    <item>
+      <title>Consolidation</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-consolidation.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-consolidation</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 810 (VIE and voting interest models).</description>
+    </item>
+    <item>
+      <title>Contingencies, commitments and guarantees</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-book-contingencies-frv.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-contingencies-commitments-and-guarantees</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 450 and ASC 460.</description>
+    </item>
+    <item>
+      <title>Credit impairment</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-credit-impairment.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-credit-impairment</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on the ASC 326 CECL model.</description>
+    </item>
+    <item>
+      <title>Crypto asset lending</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2023/hot-topic-crypto-asset-lending.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-crypto-asset-lending</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Lenders&apos; accounting for loans of crypto intangible assets.</description>
+    </item>
+    <item>
+      <title>Crypto intangible assets</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/issues-in-depth-crypto-intangible-asset-non-ic.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-crypto-intangible-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Accounting and reporting for crypto intangible assets under ASC 350-60.</description>
+    </item>
+    <item>
+      <title>Crypto intangible assets (investment companies)</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/issues-in-depth-crypto-intangible-asset-inv-co.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-crypto-intangible-assets-investment-companies</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Investment company accounting for crypto intangible assets.</description>
+    </item>
+    <item>
+      <title>Crypto staking activities</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/hot-topic-accounting-for-crypto-staking-ativities.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-crypto-staking-activities</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Accounting for crypto staking rewards.</description>
+    </item>
+    <item>
+      <title>Debt and equity financing</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/debt-and-equity.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-debt-and-equity-financing</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on debt versus equity classification and financing transactions.</description>
+    </item>
+    <item>
+      <title>Derivatives and hedging</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-derivatives-hedging-accounting.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-derivatives-and-hedging</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 815.</description>
+    </item>
+    <item>
+      <title>Digital assets: IFRS vs US GAAP</title>
+      <link>https://kpmg.com/us/en/articles/2024/digital-assets-under-ifrs-accounting-standards.html</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-digital-assets-ifrs-vs-us-gaap</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>How digital-asset accounting differs between IFRS and US GAAP.</description>
+    </item>
+    <item>
+      <title>Discontinued operations and held-for-sale disposal groups</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-discontinued-operations.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-discontinued-operations-and-held-for-sale-disposal-groups</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 205-20 and ASC 360-10.</description>
+    </item>
+    <item>
+      <title>Earnings per share</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-earnings-per-share.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-earnings-per-share</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 260.</description>
+    </item>
+    <item>
+      <title>Economic disruption</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-handbook-ecomomic-disruption.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-economic-disruption</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on accounting through economic disruption and uncertainty.</description>
+    </item>
+    <item>
+      <title>Employee benefits</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-book-employee-benefits-new.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-employee-benefits</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 712 and ASC 715.</description>
+    </item>
+    <item>
+      <title>Equity method of accounting</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-equity-method-of-accounting-1224.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-equity-method-of-accounting</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 323.</description>
+    </item>
+    <item>
+      <title>Fair value measurement</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/FVM%20Handbook%202025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-fair-value-measurement</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 820.</description>
+    </item>
+    <item>
+      <title>Financial statement presentation</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-handbook-fsp.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-financial-statement-presentation</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on overall financial statement presentation.</description>
+    </item>
+    <item>
+      <title>Foreign currency</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-foreign-currency.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-foreign-currency</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 830.</description>
+    </item>
+    <item>
+      <title>GHG emissions reporting</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-ghg-emissions-reporting-dec-2024.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-ghg-emissions-reporting</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on greenhouse gas emissions reporting.</description>
+    </item>
+    <item>
+      <title>Going concern</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-going-concern.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-going-concern</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on the ASC 205-40 going concern assessment.</description>
+    </item>
+    <item>
+      <title>IFRS compared to US GAAP</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/ifrs-us-gaap-2024-final.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-ifrs-compared-to-us-gaap</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook comparing IFRS Accounting Standards to US GAAP.</description>
+    </item>
+    <item>
+      <title>IFRS vs US GAAP: CARES Act</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2020/ifrs-us-cares-act.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-ifrs-vs-us-gaap-cares-act</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>CARES Act accounting under IFRS compared to US GAAP.</description>
+    </item>
+    <item>
+      <title>Impairment of nonfinancial assets</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/impairment-of-nonfinancial-assets.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-impairment-of-nonfinancial-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on goodwill, intangible, and long-lived asset impairment.</description>
+    </item>
+    <item>
+      <title>Internal control over financial reporting</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2023/handbook-internal-controls-over-financial-reporting.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-internal-control-over-financial-reporting</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on designing and evaluating ICFR.</description>
+    </item>
+    <item>
+      <title>Inventory</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/inventory.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-inventory</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 330.</description>
+    </item>
+    <item>
+      <title>Investment companies</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-investment-companies.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-investment-companies</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 946.</description>
+    </item>
+    <item>
+      <title>Investments</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-investments.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-investments</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on debt and equity securities (ASC 320 and ASC 321).</description>
+    </item>
+    <item>
+      <title>Leases</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/leases-handbook.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-leases</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 842.</description>
+    </item>
+    <item>
+      <title>Long-duration contracts (insurance)</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/fn-iid19-02-frv.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-long-duration-contracts-insurance</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on the LDTI insurance standard (ASU 2018-12).</description>
+    </item>
+    <item>
+      <title>NFTs</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/issues-in-depth-accounting-for-nfts.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-nfts</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Accounting for nonfungible tokens.</description>
+    </item>
+    <item>
+      <title>Public offerings: non-US issuers</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/non-us-issuers-public-offerings-filing-requirements.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-public-offerings-non-us-issuers</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Filing requirements for non-US issuers in US public offerings.</description>
+    </item>
+    <item>
+      <title>Public offerings: US issuers</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-issuers-public-offerings-filing-requirements.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-public-offerings-us-issuers</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Filing requirements for US issuers in public offerings.</description>
+    </item>
+    <item>
+      <title>Real estate lessor guide</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2023/leases-real-estate-lessors-2.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-real-estate-lessor-guide</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>ASC 842 lessor accounting for real estate.</description>
+    </item>
+    <item>
+      <title>Real estate revenue</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/revenue-real-estate-2024.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-real-estate-revenue</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>ASC 606 revenue for real estate.</description>
+    </item>
+    <item>
+      <title>Reference rate reform</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-reference-rate-reform-3.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-reference-rate-reform</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 848 (LIBOR transition).</description>
+    </item>
+    <item>
+      <title>Research and development</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/research-and-development.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-research-and-development</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 730.</description>
+    </item>
+    <item>
+      <title>Revenue for franchisors</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2021/us-dpp-ris-franchisors.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-revenue-for-franchisors</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>ASC 606 revenue for franchisors.</description>
+    </item>
+    <item>
+      <title>Revenue for software and SaaS</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-revenue-software-saas.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-revenue-for-software-and-saas</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>ASC 606 revenue for software and SaaS.</description>
+    </item>
+    <item>
+      <title>Revenue recognition</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-revenue-recognition-1224.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-revenue-recognition</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 606.</description>
+    </item>
+    <item>
+      <title>SEC reporting for business combinations</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-sec-business-combinations-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-sec-reporting-for-business-combinations</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Regulation S-X Rule 3-05 and Article 11 pro forma requirements.</description>
+    </item>
+    <item>
+      <title>Segment reporting</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/us-dpp-segment-reporting-handbook-post-asu-frv.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-segment-reporting</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 280 (post ASU 2023-07).</description>
+    </item>
+    <item>
+      <title>Service concession arrangements</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-service-concessions.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-service-concession-arrangements</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 853.</description>
+    </item>
+    <item>
+      <title>Share-based payment</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/handbook-share-based-payments.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-share-based-payment</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 718.</description>
+    </item>
+    <item>
+      <title>Software and website costs</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2024/handbook-software-website-costs-2.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-software-and-website-costs</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 350-40 and ASC 985-20.</description>
+    </item>
+    <item>
+      <title>Stablecoins</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2025/stablecoins-kpmg.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-stablecoins</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Accounting and reporting considerations for stablecoins.</description>
+    </item>
+    <item>
+      <title>Statement of cash flows</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2024/handbook-statement-cash-flows.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-statement-of-cash-flows</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 230.</description>
+    </item>
+    <item>
+      <title>Tax credits</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/tax-credits.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-tax-credits</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on accounting for tax credits and credit investments.</description>
+    </item>
+    <item>
+      <title>Transfers and servicing of financial assets</title>
+      <link>https://kpmg.com/kpmg-us/content/dam/kpmg/frv/pdf/2025/transfers-servicing-financial-assets.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-kpmg-transfers-and-servicing-of-financial-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / KPMG</category>
+      <description>Handbook on ASC 860.</description>
+    </item>
+    <item>
+      <title>Bankruptcies and liquidations</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/bankruptcies_and_liq/assets/blguide0625.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-bankruptcies-and-liquidations</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 852.</description>
+    </item>
+    <item>
+      <title>Business combinations and noncontrolling interests</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/business_combination/assets/pwcbuscombguide0226.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-business-combinations-and-noncontrolling-interests</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 805 and ASC 810.</description>
+    </item>
+    <item>
+      <title>Consolidation</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/consolidation_and_eq/assets/pwcconsolidations1225.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-consolidation</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 810 (VIEs and voting interests).</description>
+    </item>
+    <item>
+      <title>Crypto assets</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/crypto-assets-guide/assets/pwccryptoassetsguide0825.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-crypto-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide to accounting for crypto assets.</description>
+    </item>
+    <item>
+      <title>Derivatives and hedging</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/derivatives_and_hedg/assets/dhguide0126.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-derivatives-and-hedging</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 815.</description>
+    </item>
+    <item>
+      <title>Equity method investments and joint ventures</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/equity_method_of_accounting/assets/pwcequitymethod0426.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-equity-method-investments-and-joint-ventures</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 323.</description>
+    </item>
+    <item>
+      <title>Fair value measurements</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/fair_value_measureme/assets/pwcfairvalueguide0922.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-fair-value-measurements</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 820.</description>
+    </item>
+    <item>
+      <title>Financial statement presentation</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/financial_statement_/assets/fspguide0526.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-financial-statement-presentation</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on overall financial statement presentation.</description>
+    </item>
+    <item>
+      <title>Financing transactions</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/financing_transactio/assets/pwcfinancingguide1225.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-financing-transactions</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on debt, equity, and financing arrangements.</description>
+    </item>
+    <item>
+      <title>Foreign currency</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/foreign_currency/assets/pwcforeigncurrency0522.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-foreign-currency</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 830.</description>
+    </item>
+    <item>
+      <title>Health care entities</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/health-care/asset/pwchealthcare0323.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-health-care-entities</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Industry guide for health care entities.</description>
+    </item>
+    <item>
+      <title>IFRS and US GAAP: similarities and differences</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/ifrs_and_us_gaap_sim/assets/pwcifrsusgaap0326.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-ifrs-and-us-gaap-similarities-and-differences</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Comparison of IFRS and US GAAP.</description>
+    </item>
+    <item>
+      <title>Income taxes</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/income_taxes/assets/pwcincometaxguide0326.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-income-taxes</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 740.</description>
+    </item>
+    <item>
+      <title>Insurance contracts</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/insurance-contracts/assets/pwcinsurguide0524.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-insurance-contracts</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 944 for insurance entities (post ASU 2018-12).</description>
+    </item>
+    <item>
+      <title>Inventory</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/inventory/assets/ivguide0425.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-inventory</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 330.</description>
+    </item>
+    <item>
+      <title>Investment companies</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_and_repor/accounting_and_repor__6_US/9652_investment_comp_US/1_accounting_practic_US.html</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-investment-companies</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Industry guidance for investment companies (ASC 946).</description>
+    </item>
+    <item>
+      <title>Leases</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/leases/assets/pwcleasesguide1224.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-leases</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 842.</description>
+    </item>
+    <item>
+      <title>Loans and investments</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/loans_and_investment/assets/pwcloansinvestments0126.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-loans-and-investments</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on loans and debt and equity investments.</description>
+    </item>
+    <item>
+      <title>Not-for-profit entities</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/not-for-profit-entities/assets/pwcnotforprofitguide0126.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-not-for-profit-entities</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 958.</description>
+    </item>
+    <item>
+      <title>Pensions and other employee benefits</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/pensions-and-employee-benefitspeb/assets/pwcpensionsguide0126.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-pensions-and-other-employee-benefits</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 715.</description>
+    </item>
+    <item>
+      <title>Pharmaceutical and life sciences</title>
+      <link>https://www.pwc.com/us/en/industries/health-industries/library/assets/pwc-2025-us-gaap-issues-and-solutions-for-pharmaceutical-and-life-sciences.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-pharmaceutical-and-life-sciences</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Industry GAAP issues and solutions.</description>
+    </item>
+    <item>
+      <title>Property, plant, equipment and other assets</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/property_plant_equip/assets/ppeguide1224.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-property-plant-equipment-and-other-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 360.</description>
+    </item>
+    <item>
+      <title>Reference rate reform</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/reference-rate-reform/Asset/rrrguide0924.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-reference-rate-reform</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 848.</description>
+    </item>
+    <item>
+      <title>Revenue from contracts with customers</title>
+      <link>https://viewpoint.pwc.com/content/dam/pwc-madison/ditaroot/us/en/pwc/accounting_guides/revenue_from_contrac/assets/rrguide092025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-revenue-from-contracts-with-customers</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 606.</description>
+    </item>
+    <item>
+      <title>Stock-based compensation</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/stockbased_compensat/assets/stockcompguide1225.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-stock-based-compensation</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 718.</description>
+    </item>
+    <item>
+      <title>Transfers and servicing of financial assets</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/transfers_and_servic/assets/pwcts022026.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-transfers-and-servicing-of-financial-assets</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Guide on ASC 860.</description>
+    </item>
+    <item>
+      <title>Utilities and power companies</title>
+      <link>https://viewpoint.pwc.com/dt/us/en/pwc/accounting_guides/utilities_and_power_/utilities_and_power__US/upfm.html</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#big-four-accounting-reporting-guides-pwc-utilities-and-power-companies</guid>
+      <category>Big Four Accounting &amp; Reporting Guides / PwC</category>
+      <description>Industry guide for utilities and power companies.</description>
+    </item>
+    <item>
+      <title>ASC 606 revenue recognition e-book</title>
+      <link>https://www.bakertilly.com/insights/asc-606-revenue-recognition-ebook</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-baker-tilly-asc-606-revenue-recognition-e-book</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Baker Tilly</category>
+      <description>E-book on applying ASC 606.</description>
+    </item>
+    <item>
+      <title>ASC 606 revenue recognition resource page</title>
+      <link>https://www.bakertilly.com/specialties/asc-606-revenue-recognition</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-baker-tilly-asc-606-revenue-recognition-resource-page</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Baker Tilly</category>
+      <description>Hub of ASC 606 revenue recognition resources.</description>
+    </item>
+    <item>
+      <title>ASC 842 compliance for nonpublic entities</title>
+      <link>https://www.bakertilly.com/insights/breaking-down-the-complexities-of-asc-842</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-baker-tilly-asc-842-compliance-for-nonpublic-entities</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Baker Tilly</category>
+      <description>What nonpublic entities can expect under ASC 842.</description>
+    </item>
+    <item>
+      <title>ASC 842 leases guidebook</title>
+      <link>https://www.bakertilly.com/insights/are-you-uncertain-where-to-start-in-adapting-your-leases-accounting-to-the-</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-baker-tilly-asc-842-leases-guidebook</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Baker Tilly</category>
+      <description>Guidebook on adapting lease accounting to ASC 842.</description>
+    </item>
+    <item>
+      <title>Lease accounting resource page</title>
+      <link>https://www.bakertilly.com/specialties/asc-842-lease-accounting</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-baker-tilly-lease-accounting-resource-page</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Baker Tilly</category>
+      <description>Hub of ASC 842 and GASB 87 lease accounting resources.</description>
+    </item>
+    <item>
+      <title>Accounting for cryptocurrencies</title>
+      <link>https://arch.bdo.com/getContentAsset/0e733aae-351f-4d6f-b697-39ebb6f76767/bb620d56-5e9c-4774-8d17-fb9323eefdf4/ASSR-Accounting-for-Cryptocurrencies.pdf?language=en</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-bdo-accounting-for-cryptocurrencies</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / BDO</category>
+      <description>Blueprint on accounting for crypto assets.</description>
+    </item>
+    <item>
+      <title>Accounting for leases under ASC 842</title>
+      <link>https://www.bdo.com/getmedia/1b712239-4dfc-4cab-b110-0055962b25d8/ASSR-Accounting-for-Leases-under-ASC842-FINAL.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-bdo-accounting-for-leases-under-asc-842</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / BDO</category>
+      <description>Guide on lessee and lessor accounting under ASC 842.</description>
+    </item>
+    <item>
+      <title>COVID-19 accounting and reporting considerations</title>
+      <link>https://www.bdo.com/getmedia/e94e95a6-369f-4600-a83d-458859397b78/COVID-19-Accounting-Reporting-and-Other-Related-Considerations-%281%29.pdf?ext=.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-bdo-covid-19-accounting-and-reporting-considerations</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / BDO</category>
+      <description>Accounting and reporting considerations arising from COVID-19.</description>
+    </item>
+    <item>
+      <title>Financial reporting considerations for tariffs</title>
+      <link>https://arch.bdo.com/getContentAsset/eda42da4-d9cd-4ee6-afc1-47081c4ede33/bb620d56-5e9c-4774-8d17-fb9323eefdf4/Financial-Reporting-Implications-For-Tariffs-BDO-03-2026.pdf?language=en</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-bdo-financial-reporting-considerations-for-tariffs</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / BDO</category>
+      <description>Financial reporting implications of tariffs.</description>
+    </item>
+    <item>
+      <title>Identifying performance obligations in the software industry</title>
+      <link>https://arch.bdo.com/getContentAsset/e393e069-6960-44fd-839a-4aacb86a70d1/bb620d56-5e9c-4774-8d17-fb9323eefdf4/Rev-Rec-Software-Industry.pdf?language=en</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-bdo-identifying-performance-obligations-in-the-software-industry</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / BDO</category>
+      <description>Supplement to the ASC 606 Blueprint for software.</description>
+    </item>
+    <item>
+      <title>Lease accounting for the retail and restaurant industries</title>
+      <link>https://arch.bdo.com/getContentAsset/72ff1cc4-01ec-4700-a2f2-8b564ad3edc1/bb620d56-5e9c-4774-8d17-fb9323eefdf4/Lease-Accounting-for-Retail-and-Restaurant-Industries-BDO-Blueprint-01-2026.pdf?language=en</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-bdo-lease-accounting-for-the-retail-and-restaurant-industries</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / BDO</category>
+      <description>Blueprint on ASC 842 for retail and restaurant entities.</description>
+    </item>
+    <item>
+      <title>Revenue recognition under ASC 606</title>
+      <link>https://arch.bdo.com/getContentAsset/118430f1-fe4d-4112-adf6-884d6a0347f3/bb620d56-5e9c-4774-8d17-fb9323eefdf4/Revenue-Recognition-Under-ASC-606-BDO-Blueprint-10-2025.pdf?language=en</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-bdo-revenue-recognition-under-asc-606</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / BDO</category>
+      <description>Blueprint on ASC 606.</description>
+    </item>
+    <item>
+      <title>Understanding GASB Implementation Guide No. 2025-1</title>
+      <link>https://www.bdo.com/getmedia/b96e5eba-d5af-4b4b-afd5-04787f76389c/PS-Understanding-GASB-Implementation-Guide-No-2025-1-Insight.pdf?ext=.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-bdo-understanding-gasb-implementation-guide-no-2025-1</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / BDO</category>
+      <description>Public sector guidance on GASB Implementation Guide 2025-1.</description>
+    </item>
+    <item>
+      <title>Applying Topic 606 using various contract examples</title>
+      <link>https://www.claconnect.com/-/media/files/white-papers/white-paper--revenue-recognion-applications-for-he.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-cla-applying-topic-606-using-various-contract-examples</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / CLA</category>
+      <description>ASC 606 illustrated with contract examples.</description>
+    </item>
+    <item>
+      <title>How to apply new revenue recognition rules to your construction company</title>
+      <link>https://www.claconnect.com/-/media/files/white-papers/how-to-apply-new-revenue-recognition-rules-to-your-construction-company-cli.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-cla-how-to-apply-new-revenue-recognition-rules-to-your-construction-company</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / CLA</category>
+      <description>ASC 606 for construction companies.</description>
+    </item>
+    <item>
+      <title>Impact of revenue recognition standards</title>
+      <link>https://www.claconnect.com/-/media/files/presentations/impact-of-revenue-recognition-standards--cliftonlarsonallen-final.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-cla-impact-of-revenue-recognition-standards</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / CLA</category>
+      <description>Overview of the impact of ASC 606.</description>
+    </item>
+    <item>
+      <title>Independent school revenue recognition for tuition</title>
+      <link>https://www.claconnect.com/-/media/files/white-papers/independent-schools-white-paper.pdf?la=en</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-cla-independent-school-revenue-recognition-for-tuition</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / CLA</category>
+      <description>Tuition revenue recognition for independent schools.</description>
+    </item>
+    <item>
+      <title>PPP FAQ accounting questions</title>
+      <link>https://www.claconnect.com/-/media/files/events-supporting/ppp-faq-accounting-questions.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-cla-ppp-faq-accounting-questions</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / CLA</category>
+      <description>Accounting questions on Paycheck Protection Program loans.</description>
+    </item>
+    <item>
+      <title>Preparing for changing revenue recognition guidelines</title>
+      <link>https://www.claconnect.com/-/media/files/presentations/sw791preparing-for-changing-guidelinessecure.pdf?la=en</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-cla-preparing-for-changing-revenue-recognition-guidelines</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / CLA</category>
+      <description>Preparing to adopt ASC 606.</description>
+    </item>
+    <item>
+      <title>Steps to prepare for new lease standards</title>
+      <link>https://www.claconnect.com/-/media/whitepapers/june-2021/steps-to-prepare-for-new-lease-standards-whitepaper.pdf?hash=1D29A0E56167DE91CB8EBD6EB03A8EED&amp;rev=4239892ffeb344548c345efe2981eb26</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-cla-steps-to-prepare-for-new-lease-standards</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / CLA</category>
+      <description>Steps to prepare for ASC 842.</description>
+    </item>
+    <item>
+      <title>Technology companies and revenue recognition</title>
+      <link>https://www.claconnect.com/-/media/files/presentations/tech-companies-and-rev-rec-webinar62618.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-cla-technology-companies-and-revenue-recognition</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / CLA</category>
+      <description>ASC 606 for technology companies.</description>
+    </item>
+    <item>
+      <title>2024 AICPA &amp; CIMA Conference highlights</title>
+      <link>https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/2/2024-aicpa-cima-conference-on-sec-pcaob-developments-audit2500-012n.pdf?hash=1DEEB08E01BF590FB1E7E71FFCF8163E&amp;rev=8a490dc6ac074e2cb7252157b9bf0c57</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-crowe-2024-aicpa-cima-conference-highlights</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Crowe</category>
+      <description>Highlights from the 2024 AICPA &amp; CIMA Conference on SEC and PCAOB developments.</description>
+    </item>
+    <item>
+      <title>2024 illustrative financial statements: financial institutions</title>
+      <link>https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/2/2024-illustrative-financial-statements-financial-institutions-audit2500-012d.pdf?hash=9E1348ABDBA50B2E3A69737C00A1D20E&amp;rev=d6d75fe40748411b92f261b11af21fb7</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-crowe-2024-illustrative-financial-statements-financial-institutions</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Crowe</category>
+      <description>Illustrative financial statements for financial institutions.</description>
+    </item>
+    <item>
+      <title>2025 illustrative financial statements</title>
+      <link>https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/2/2025-illustrative-financial-statements-tact2664450.pdf?hash=FB726BB122AFEC0E1C4F1199EDFF662B&amp;rev=02db88adc3594053a2a739ef277e15d5</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-crowe-2025-illustrative-financial-statements</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Crowe</category>
+      <description>Illustrative financial statements for 2025.</description>
+    </item>
+    <item>
+      <title>Applying the new revenue recognition standard to financial institutions</title>
+      <link>https://www.crowe.com/-/media/Crowe/LLP/folio-pdf/Applying-the-New-Revenue-Recognition-Standard-to-Financial-Institution-FS-18200-024A.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-crowe-applying-the-new-revenue-recognition-standard-to-financial-institutions</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Crowe</category>
+      <description>ASC 606 for financial institutions.</description>
+    </item>
+    <item>
+      <title>Implementing the new revenue recognition standard for restaurant and retail</title>
+      <link>https://www.crowe.com/-/media/crowe/llp/folio-pdf/restaurant-and-retail-rev-rec-article-fw-17014-007a.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-crowe-implementing-the-new-revenue-recognition-standard-for-restaurant-and-retail</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Crowe</category>
+      <description>ASC 606 for restaurant and retail entities.</description>
+    </item>
+    <item>
+      <title>Q1 2025 accounting and financial reporting developments</title>
+      <link>https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/q/q1-2025-accounting-and-financial-reporting-developments-audit2500-012p.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-crowe-q1-2025-accounting-and-financial-reporting-developments</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Crowe</category>
+      <description>Quarterly accounting and financial reporting developments.</description>
+    </item>
+    <item>
+      <title>Revenue recognition under ASC 606</title>
+      <link>https://www.crowe.com/-/media/Crowe/LLP/folio-pdf/Virtual-Symposium-Keynote-Five-Step-ASR-18000-093B.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-crowe-revenue-recognition-under-asc-606</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Crowe</category>
+      <description>Presentation on the five-step ASC 606 model.</description>
+    </item>
+    <item>
+      <title>SEC comment letters in the life sciences industry</title>
+      <link>https://www.crowe.com/-/media/crowe/llp/widen-media-files-folder/s/sec-comment-letters-in-the-life-sciences-industry-2025-edition-tact2465100.pdf?hash=D2ADBC69E86D87B2DE91AA41A9C2D442&amp;rev=bed19cbeef8a4cd89884daec612d1edf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-crowe-sec-comment-letters-in-the-life-sciences-industry</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Crowe</category>
+      <description>2025 edition of SEC comment letter trends for life sciences.</description>
+    </item>
+    <item>
+      <title>ASC 842 considerations and best practices</title>
+      <link>https://www.forvismazars.us/getattachment/b62752c7-f5a3-4796-b26c-3ffd30aed665/ASC-842-Considerations-Best-Practices.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-asc-842-considerations-and-best-practices</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Considerations and best practices for ASC 842.</description>
+    </item>
+    <item>
+      <title>ASC 842 refresher: modifications and impairment</title>
+      <link>https://www.forvismazars.us/getmedia/c0d74b27-2486-4ecc-9d2a-86c10d19f8e0/ASC-842-Refresher-Modifications-Impairment.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-asc-842-refresher-modifications-and-impairment</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Lease modifications and impairment under ASC 842.</description>
+    </item>
+    <item>
+      <title>Cost Accounting Standards compliance guide</title>
+      <link>https://www.forvismazars.us/getmedia/6bdb93d5-9589-46ff-9173-f85a152d4896/Forvis-Mazars-CAS-Compliance-Guide.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-cost-accounting-standards-compliance-guide</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Guide to Cost Accounting Standards compliance.</description>
+    </item>
+    <item>
+      <title>Details on FASB&apos;s new public company expense disclosures</title>
+      <link>https://www.forvismazars.us/getmedia/928277a0-906e-438b-a48b-ed74d7413e02/Details-on-FASBs-New-Public-Company-Expense-Disclosures.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-details-on-fasb-s-new-public-company-expense-disclosures</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>DISE disclosures under ASU 2024-03.</description>
+    </item>
+    <item>
+      <title>FASB finalizes common control lease relief</title>
+      <link>https://www.forvismazars.us/getmedia/fc3e9f70-28f3-4bf6-ac65-5a03e5662713/FASB-Finalizes-Common-Control-Lease-Relief.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-fasb-finalizes-common-control-lease-relief</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Common control lease arrangements under ASC 842.</description>
+    </item>
+    <item>
+      <title>FASB quarterly update, 1Q 2025</title>
+      <link>https://www.forvismazars.us/getmedia/c627cb03-bdda-43b7-9c61-13e05cc47ab7/FASB-1Q-2025.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-fasb-quarterly-update-1q-2025</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>FASB standard-setting update for the first quarter of 2025.</description>
+    </item>
+    <item>
+      <title>New guidance on accounting for government grants</title>
+      <link>https://www.forvismazars.us/getmedia/87dc3413-2487-48e9-9b97-f019f9142ad5/New-Guidance-on-Accounting-for-Government-Grants.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-new-guidance-on-accounting-for-government-grants</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>New FASB guidance on accounting for government grants.</description>
+    </item>
+    <item>
+      <title>New JV accounting rules: fair value</title>
+      <link>https://www.forvismazars.us/getmedia/88c5e66d-14eb-4738-97e9-14e9d23e4cc6/New-JV-Accounting-Rules-Fair-Value.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-new-jv-accounting-rules-fair-value</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Joint venture formation accounting at fair value (ASU 2023-05).</description>
+    </item>
+    <item>
+      <title>Prepared for new fair value guidance for restricted equity securities?</title>
+      <link>https://www.forvismazars.us/getmedia/fb49a840-9f8d-4d62-8cc7-516cf62f2ca2/Prepared-for-New-Fair-Value-Guidance-for-Restricted-Equity-Securities.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-prepared-for-new-fair-value-guidance-for-restricted-equity-securities</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Fair value guidance for restricted equity securities (ASU 2022-03).</description>
+    </item>
+    <item>
+      <title>Private company accounting relief projects move forward</title>
+      <link>https://www.forvismazars.us/getmedia/86dbbb01-51a3-4eb4-971e-71020bb365cc/Private-Company-Accounting-Relief-Projects-Move-Forward.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-private-company-accounting-relief-projects-move-forward</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Update on private company accounting relief projects.</description>
+    </item>
+    <item>
+      <title>Quarterly financial reporting update</title>
+      <link>https://www.forvismazars.us/getmedia/98f24d60-78f7-43ed-8312-8650ef469ef6/Final-Quarterly-Financial-Reporting-Update_1.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-quarterly-financial-reporting-update</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Quarterly accounting and financial reporting update.</description>
+    </item>
+    <item>
+      <title>Sale and leaseback transactions accounting refresher</title>
+      <link>https://www.forvismazars.us/getmedia/a2d4a471-3c67-4488-9fbb-c490c2044eab/CLEAN-2192926-Sale-leaseback-accounting-refresher_Dec-13-2024-_AC-V2-1.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-forvis-mazars-sale-and-leaseback-transactions-accounting-refresher</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Forvis Mazars</category>
+      <description>Sale and leaseback transactions under ASC 842.</description>
+    </item>
+    <item>
+      <title>Applying ASC 360 to right-of-use assets</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/viewpoint-2020/applying-ASC-360-right-use-assets/applying-asc-360-right-use-assets.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-applying-asc-360-to-right-of-use-assets</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>Impairment of right-of-use assets under ASC 360.</description>
+    </item>
+    <item>
+      <title>ASU 2021-09 discount rate guidance for nonpublic lessees</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/2021/snapshot-2021-15-asu-2021-09-amends-discount-rate-guidance-for-nonpublic-lessees.pdf.coredownload.inline.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-asu-2021-09-discount-rate-guidance-for-nonpublic-lessees</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>Discount rate practical expedient for nonpublic lessees.</description>
+    </item>
+    <item>
+      <title>Changing economic and fiscal policy: reporting considerations</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/snapshot/snapshot-2025-04-changing-economic-and-fiscal-policy-accounting-and-financial-reporting-considerations.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-changing-economic-and-fiscal-policy-reporting-considerations</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>Accounting and financial reporting considerations of policy change.</description>
+    </item>
+    <item>
+      <title>FASB introduces disaggregated income statement expense disclosures</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/2025/snapshot-2025-14-fasb-disaggregated-income.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-fasb-introduces-disaggregated-income-statement-expense-disclosures</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>DISE disclosures under ASU 2024-03.</description>
+    </item>
+    <item>
+      <title>Implementing the new revenue guidance in the technology industry</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/white-papers/2019/implementing-new-revenue-guidance-in-technology-industry/implementing-new-revenue-guidance-in-technology-industry.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-implementing-the-new-revenue-guidance-in-the-technology-industry</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>ASC 606 for the technology industry.</description>
+    </item>
+    <item>
+      <title>Leases: navigating the guidance in ASC 842</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/2023/leases-navigating-the-guidance-in-asc-842-updated-june-2023.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-leases-navigating-the-guidance-in-asc-842</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>Comprehensive guide to ASC 842.</description>
+    </item>
+    <item>
+      <title>Navigating the guidance in ASC 718, share-based payments</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/New-Developments-Summaries-2021/share-based-payments-july-2021.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-navigating-the-guidance-in-asc-718-share-based-payments</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>Comprehensive guide to ASC 718.</description>
+    </item>
+    <item>
+      <title>Revenue from contracts with customers: navigating ASC 606 and ASC 340-40</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/2026/revenue-from-contracts-with-customers-navigating-the-guidance-in-asc-606-and-340-40-revised-april-2026.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-revenue-from-contracts-with-customers-navigating-asc-606-and-asc-340-40</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>Comprehensive guide to ASC 606 and ASC 340-40.</description>
+    </item>
+    <item>
+      <title>Sales and transfers of nonfinancial assets: applying ASC 610-20</title>
+      <link>https://www.grantthornton.com/content/dam/grantthornton/website/assets/content-page-files/audit/pdfs/new-developments-summaries-2022/sales-and-transfers-of-nonfinancial-assets-applying-asc-610-20-updated-october-2022.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-grant-thornton-sales-and-transfers-of-nonfinancial-assets-applying-asc-610-20</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / Grant Thornton</category>
+      <description>Guide to ASC 610-20.</description>
+    </item>
+    <item>
+      <title>A guide to accounting for derivatives and hedge accounting</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/a-guide-to-accounting-for-derivatives-and-hedge-accounting_122024.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-a-guide-to-accounting-for-derivatives-and-hedge-accounting</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Guide on ASC 815.</description>
+    </item>
+    <item>
+      <title>A guide to lease accounting</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/a-guide-to-lease-accounting-20241101.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-a-guide-to-lease-accounting</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Guide on ASC 842.</description>
+    </item>
+    <item>
+      <title>A guide to lessee accounting under ASC 842</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/a-guide-to-lessee-accounting-under-asc-842.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-a-guide-to-lessee-accounting-under-asc-842</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Lessee accounting under ASC 842.</description>
+    </item>
+    <item>
+      <title>A guide to revenue recognition</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/services/audit/1pdf/a-guide-to-revenue-recognition.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-a-guide-to-revenue-recognition</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Guide on ASC 606.</description>
+    </item>
+    <item>
+      <title>Accounting for income taxes: current and deferred taxes</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/Accounting-for-income-taxes-Current-and-deferred-taxes.inline.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-accounting-for-income-taxes-current-and-deferred-taxes</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Current and deferred taxes under ASC 740.</description>
+    </item>
+    <item>
+      <title>Early lease terminations, reduced payments and subleases</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/Early-lease-terminations-reduced-payments-and-subleases.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-early-lease-terminations-reduced-payments-and-subleases</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Lease modification scenarios under ASC 842.</description>
+    </item>
+    <item>
+      <title>Financial reporting implications of tariffs</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/accounting-brief-financial-reporting-implications-of-tariffs.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-financial-reporting-implications-of-tariffs</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Accounting brief on the financial reporting implications of tariffs.</description>
+    </item>
+    <item>
+      <title>Leases: overview of ASC 842</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/leases-overview-of-asc-842.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-leases-overview-of-asc-842</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Overview of ASC 842.</description>
+    </item>
+    <item>
+      <title>Lessee accounting for tenant improvement allowances</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/Lessee-accounting-for-tenant-improvements.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-lessee-accounting-for-tenant-improvement-allowances</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Tenant improvement allowances under ASC 842.</description>
+    </item>
+    <item>
+      <title>Lessor accounting under ASC 842</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/Lessor-accounting-under-ASC-842.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-lessor-accounting-under-asc-842</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Lessor accounting under ASC 842.</description>
+    </item>
+    <item>
+      <title>Revenue recognition considerations for consumer products</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/Changes-to-revenue-recognition-in-the-consumer-products-industry-202309.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-revenue-recognition-considerations-for-consumer-products</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>ASC 606 for consumer products.</description>
+    </item>
+    <item>
+      <title>Revenue recognition considerations for financial institutions</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/revenue-recognition-considerations-for-financial-institutions.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-revenue-recognition-considerations-for-financial-institutions</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>ASC 606 for financial institutions.</description>
+    </item>
+    <item>
+      <title>Revenue recognition considerations for not-for-profit organizations</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/Revenue-recognition-considerations-for-not-for-profit-organizations-202309.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-revenue-recognition-considerations-for-not-for-profit-organizations</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>ASC 606 for not-for-profit organizations.</description>
+    </item>
+    <item>
+      <title>Revenue recognition for business and professional services</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/Revenue-recognition-for-business-and-professional-services-202310.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-revenue-recognition-for-business-and-professional-services</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>ASC 606 for business and professional services.</description>
+    </item>
+    <item>
+      <title>Revenue recognition for federal government contractors</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/industries/government-contracting/1pdf/revenue-recognition-considerations-for-federal-government-contractors.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-revenue-recognition-for-federal-government-contractors</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>ASC 606 for federal government contractors.</description>
+    </item>
+    <item>
+      <title>Revenue recognition for industrial entities</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/revenue-recognition-for-industrial-entities.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-revenue-recognition-for-industrial-entities</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>ASC 606 for industrial entities.</description>
+    </item>
+    <item>
+      <title>Revenue recognition in the life sciences industry</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/revenue-recognition-considerations-for-the-life-sciences-industry.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-revenue-recognition-in-the-life-sciences-industry</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>ASC 606 for life sciences.</description>
+    </item>
+    <item>
+      <title>Revenue recognition: overview of ASC 606</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/services/audit/1pdf/revenue-recognition-overview-of-asc-606.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-revenue-recognition-overview-of-asc-606</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Overview of ASC 606.</description>
+    </item>
+    <item>
+      <title>US GAAP to IFRS comparisons</title>
+      <link>https://rsmus.com/content/dam/rsm/insights/financial-reporting/1pdf/us-gaap-to-ifrs-comparisons_122024.inline.pdf</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#other-firm-accounting-reporting-guides-rsm-us-gaap-to-ifrs-comparisons</guid>
+      <category>Other Firm Accounting &amp; Reporting Guides / RSM</category>
+      <description>Comparison of US GAAP and IFRS.</description>
+    </item>
+    <item>
+      <title>Accounting Accidentally</title>
+      <link>https://www.accountingaccidentally.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#newsletters-blogs-accounting-accidentally</guid>
+      <category>Newsletters &amp; Blogs</category>
+      <description>Ken Boyd, author of several &quot;For Dummies&quot; accounting titles, explains core accounting concepts and the CPA exam for students and professionals.</description>
+    </item>
+    <item>
+      <title>Deep Quarry</title>
+      <link>https://deepquarry.substack.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#newsletters-blogs-deep-quarry</guid>
+      <category>Newsletters &amp; Blogs</category>
+      <description>Olga Usvyatsky uses data to uncover trends in financial disclosure and reporting, from SEC comment letters to restatement red flags.</description>
+    </item>
+    <item>
+      <title>The Dig</title>
+      <link>https://thedig.substack.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#newsletters-blogs-the-dig</guid>
+      <category>Newsletters &amp; Blogs</category>
+      <description>Investigative journalist Francine McKenna digs into accounting, auditing, and governance issues at public and pre-IPO companies.</description>
+    </item>
+    <item>
+      <title>FinAcco Insights</title>
+      <link>https://finacco.org/insights/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#newsletters-blogs-finacco-insights</guid>
+      <category>Newsletters &amp; Blogs</category>
+      <description>Technical accounting articles on revenue, leases, financial instruments, crypto, and valuation from a specialist advisory firm.</description>
+    </item>
+    <item>
+      <title>GAAPSavvy</title>
+      <link>https://news.gaapsavvy.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#newsletters-blogs-gaapsavvy</guid>
+      <category>Newsletters &amp; Blogs</category>
+      <description>Angela Liu&apos;s field-notes newsletter on what is actually happening on the ground in corporate accounting, including revenue recognition and the accounting/AI intersection.</description>
+    </item>
+    <item>
+      <title>TechAccountingPro</title>
+      <link>https://blog.techaccountingpro.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#newsletters-blogs-techaccountingpro</guid>
+      <category>Newsletters &amp; Blogs</category>
+      <description>Practical US GAAP research and solutions with a focus on digital-asset and crypto accounting, presentation, and audit readiness.</description>
+    </item>
+    <item>
+      <title>Ambition, Aligned</title>
+      <link>https://www.linkedin.com/newsletters/ambition-aligned-7311015426463776788</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#profession-practice-careers-ambition-aligned</guid>
+      <category>Profession, Practice &amp; Careers</category>
+      <description>Devon Coombs (CPA, formerly Deloitte and Google Cloud) on AI strategy, finance leadership, and purpose-driven careers for finance professionals.</description>
+    </item>
+    <item>
+      <title>Jason Staats</title>
+      <link>https://www.jasononfirms.com/</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#profession-practice-careers-jason-staats</guid>
+      <category>Profession, Practice &amp; Careers</category>
+      <description>CPA Jason Staats on running modern accounting firms, covering practice management, accounting technology, and AI tooling.</description>
+    </item>
+    <item>
+      <title>Estimated Normal Useful Life Study by ASA – Machinery &amp; Technical Specialties Committee</title>
+      <link>https://www.appraisers.org/docs/default-source/16---member-resources/mtsc-normal-useful-life-study-update-2024.pdf?sfvrsn=2c943b33_1</link>
+      <guid isPermaLink="false">https://andrewfowl.github.io/Awesome_Technical_Accounting/#data-estimated-normal-useful-life-study-by-asa-machinery-technical-specialties-committee</guid>
+      <category>Data</category>
+      <description>Estimated Normal Useful Lives for Machinery and Equipment</description>
+    </item>
+  </channel>
+</rss>

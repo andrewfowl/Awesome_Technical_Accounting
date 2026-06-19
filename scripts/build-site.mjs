@@ -8,6 +8,8 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const md = readFileSync(join(root, 'readme.md'), 'utf8');
 
 const REPO_URL = 'https://github.com/andrewfowl/Awesome_Technical_Accounting';
+const SITE_URL = 'https://andrewfowl.github.io/Awesome_Technical_Accounting/';
+const FEED_URL = SITE_URL + 'rss.xml';
 
 const esc = (s) =>
   String(s)
@@ -17,6 +19,14 @@ const esc = (s) =>
     .replace(/"/g, '&quot;');
 
 const escAttr = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+
+const xmlEsc = (s) =>
+  String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 
 const slug = (s) =>
   s
@@ -89,6 +99,45 @@ const totalResources = sections.reduce(
   (sum, s) => sum + s.groups.reduce((a, g) => a + g.items.length, 0),
   0,
 );
+
+// ---- Render RSS feed -------------------------------------------------------
+// One <item> per resource. The guid is derived from the section/name (not the
+// URL) so it stays stable even when a firm rotates a guide to a new edition.
+const feedItems = sections
+  .flatMap((s) =>
+    s.groups.flatMap((g) =>
+      g.items.map((it) => {
+        const category = g.heading ? `${s.heading} / ${g.heading}` : s.heading;
+        const guid = `${SITE_URL}#${slug(s.heading + ' ' + (g.heading || '') + ' ' + it.name)}`;
+        const description = it.desc || category;
+        return [
+          '    <item>',
+          `      <title>${xmlEsc(it.name)}</title>`,
+          `      <link>${xmlEsc(it.url)}</link>`,
+          `      <guid isPermaLink="false">${xmlEsc(guid)}</guid>`,
+          `      <category>${xmlEsc(category)}</category>`,
+          `      <description>${xmlEsc(description)}</description>`,
+          '    </item>',
+        ].join('\n');
+      }),
+    ),
+  )
+  .join('\n');
+
+const rss = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>${xmlEsc(title)}</title>
+    <link>${xmlEsc(SITE_URL)}</link>
+    <atom:link href="${xmlEsc(FEED_URL)}" rel="self" type="application/rss+xml"/>
+    <description>${xmlEsc(tagline)}</description>
+    <language>en-us</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <generator>scripts/build-site.mjs</generator>
+${feedItems}
+  </channel>
+</rss>
+`;
 
 // ---- Render content --------------------------------------------------------
 const nav = sections
@@ -278,6 +327,7 @@ const html = `<!doctype html>
 <meta property="og:title" content="${escAttr(title)}">
 <meta property="og:description" content="${escAttr(tagline)}">
 <meta property="og:type" content="website">
+<link rel="alternate" type="application/rss+xml" title="${escAttr(title)} — RSS feed" href="rss.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 <style>${STYLE}</style>
 </head>
@@ -288,6 +338,7 @@ const html = `<!doctype html>
       <a href="https://awesome.re" target="_blank" rel="noopener noreferrer">★ Awesome</a>
       <a href="${escAttr(REPO_URL)}" target="_blank" rel="noopener noreferrer">⌥ GitHub</a>
       <a href="${escAttr(REPO_URL)}/blob/main/license" target="_blank" rel="noopener noreferrer">CC0 License</a>
+      <a href="rss.xml">📡 RSS</a>
     </div>
     <h1>${esc(title)}</h1>
     <p class="tagline">${esc(tagline)}</p>
@@ -322,7 +373,7 @@ ${content}
 <footer>
   <div class="wrap">
     <span>Released under <a href="${escAttr(REPO_URL)}/blob/main/license" target="_blank" rel="noopener noreferrer">CC0 1.0</a> · Contributions welcome via <a href="${escAttr(REPO_URL)}/blob/main/contributing.md" target="_blank" rel="noopener noreferrer">the guidelines</a>.</span>
-    <span>Generated from <a href="${escAttr(REPO_URL)}/blob/main/readme.md" target="_blank" rel="noopener noreferrer">readme.md</a></span>
+    <span>Subscribe via <a href="rss.xml">RSS</a> · Generated from <a href="${escAttr(REPO_URL)}/blob/main/readme.md" target="_blank" rel="noopener noreferrer">readme.md</a></span>
   </div>
 </footer>
 <script>${SCRIPT}</script>
@@ -331,4 +382,7 @@ ${content}
 `;
 
 writeFileSync(join(root, 'index.html'), html);
-console.log(`Wrote index.html — ${sections.length} sections, ${totalResources} resources.`);
+writeFileSync(join(root, 'rss.xml'), rss);
+console.log(
+  `Wrote index.html and rss.xml — ${sections.length} sections, ${totalResources} resources.`,
+);
