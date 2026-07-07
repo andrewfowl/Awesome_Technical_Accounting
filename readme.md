@@ -87,6 +87,12 @@ In-depth interpretive guides from the Big Four firms. Links point to the firms' 
 - [Statement of cash flows](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frd42856-07-30-2024-v2.pdf) - Financial Reporting Developments on ASC 230.
 - [Transfers and servicing of financial assets](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1921-09-24-2025.pdf) - Financial Reporting Developments on ASC 860.
 - [US GAAP versus IFRS: the basics](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-ifrs29540-261us-01-21-2026.pdf) - Comparison of US GAAP and IFRS Accounting Standards.
+- [Guide to preparing carveout financial statements](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-co00545-181us-04-29-2026_.pdf) - Guide on preparation of separate financial statements of a portion of the business.
+- [Reinsurance](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb2433-12-17-2025.pdf) - Accounting guide for reinsurance business.
+- [Accounting for outcome-based payment arrangements in the life sciences sector](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-faas26364-251us-03-20-2025.pdf) - Guide on outcome-based payment arrangements in the life sciences sector.
+- [Insurance contract modifications or exchanges](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-frdbb1285-12-17-2025.pdf) - Guide on accounting for deferred acquisition costs in connection with modifications or exchanges of insurance contracts.
+- [Technical Line - Accounting for digital assets, including crypto assets](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-tl16494-221us-03-28-2025.pdf) - Guide on crypto accounting.
+- [Third-party risk management – Working with service organizations](https://www.ey.com/content/dam/ey-unified-site/ey-com/en-us/technical/accountinglink/documents/ey-guide25079-241us-11-06-2024.pdf) - Guide on control considerations related to an entity’s use of service organizations for financial reporting purposes.
 
 ### KPMG
 
