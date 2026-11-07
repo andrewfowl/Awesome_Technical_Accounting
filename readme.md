@@ -284,6 +284,7 @@ In-depth interpretive guides from national and mid-tier accounting firms. Links 
 - [FinAcco Insights](https://finacco.org/insights/) - Technical accounting articles on revenue, leases, financial instruments, crypto, and valuation from a specialist advisory firm.
 - [GAAPSavvy](https://news.gaapsavvy.com/) - Angela Liu's field-notes newsletter on what is actually happening on the ground in corporate accounting, including revenue recognition and the accounting/AI intersection.
 - [Month-End Close](https://month-end-close.com/month-end-flux/) - Practical notes on month-end flux and variance analysis.
+- [Soluqube Technical Hub](https://soluqube.com/asc-606) - Technical workpaper guides, multi-element relative standalone selling price allocations, and dual-standard ASC 606 and Ind AS 115 revenue accounting.
 - [TechAccountingPro](https://blog.techaccountingpro.com/) - Practical US GAAP research and solutions with a focus on digital-asset and crypto accounting, presentation, and audit readiness.
 
 
