@@ -291,6 +291,7 @@ In-depth interpretive guides from national and mid-tier accounting firms. Links 
 
 - [Ambition, Aligned](https://www.linkedin.com/newsletters/ambition-aligned-7311015426463776788) - Devon Coombs (CPA, formerly Deloitte and Google Cloud) on AI strategy, finance leadership, and purpose-driven careers for finance professionals.
 - [Jason Staats](https://www.jasononfirms.com/) - CPA Jason Staats on running modern accounting firms, covering practice management, accounting technology, and AI tooling.
+- [Technical Accounting Memo with AI](https://secondskillset.com/guides/technical-accounting-memo-ai) - Second Skillset's free guide to the standard memo format, drafting a memo from your notes with AI, and checking the guidance it cites and its conclusion.
 
 ## Data
 - [Estimated Normal Useful Life Study by ASA – Machinery & Technical Specialties Committee](https://www.appraisers.org/docs/default-source/16---member-resources/mtsc-normal-useful-life-study-update-2024.pdf?sfvrsn=2c943b33_1) - Estimated Normal Useful Lives for Machinery and Equipment
