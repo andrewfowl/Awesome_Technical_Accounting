@@ -294,6 +294,7 @@ In-depth interpretive guides from national and mid-tier accounting firms. Links 
 
 ## Data
 - [Estimated Normal Useful Life Study by ASA – Machinery & Technical Specialties Committee](https://www.appraisers.org/docs/default-source/16---member-resources/mtsc-normal-useful-life-study-update-2024.pdf?sfvrsn=2c943b33_1) - Estimated Normal Useful Lives for Machinery and Equipment
+- [synthetic cfo public sample](https://huggingface.co/datasets/syntheticcfo/synthetic-cfo-sample) - A synthetic SAP ECC fiscal year of purchase-to-pay, order-to-cash and tax tables with a labelled answer key of fraud records, free for non-commercial research.
 
 
 ## Contributing
